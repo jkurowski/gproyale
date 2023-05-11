@@ -2,7 +2,13 @@
 
 @section('content')
 <div id="slider">
-
+    <div class="container h-100">
+        <div class="row h-100">
+            <div class="col-12 d-flex justify-content-center align-items-center h-100">
+                <img src="{{ asset('/images/headers/15th.png') }}" alt="">
+            </div>
+        </div>
+    </div>
 </div>
 
 <section>
@@ -45,6 +51,16 @@
     </div>
 </section>
 
+<div class="container">
+    <div class="row">
+
+        <div class="col-12 text-center section">
+            <p>[[ Placeholder for gallery ]]</p>
+        </div>
+
+    </div>
+</div>
+
 <section class="pb-0">
     <div class="container">
         <div class="row">
@@ -83,6 +99,10 @@
                     <p>&nbsp;</p>
                     <p class="h2 center-justified">Abu Dhabi also sees a winner crowned in F2, as the series also comes to a close here</p>
                 </div>
+            </div>
+
+            <div class="col-12 text-center section">
+                <p>[[ Placeholder for gallery ]]</p>
             </div>
 
             <div class="col-12">

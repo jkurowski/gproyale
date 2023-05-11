@@ -11,13 +11,24 @@
                 </div>
                 <div class="col-9">
                     <nav role="navigation">
-                        <ul class="mb-0 list-unstyled">
+                        <ul class="mb-0 list-unstyled mainmenu">
                             <li class="active"><a href="/">HOME</a></li>
-                            <li><a href="">ABU DHABI GRAND PRIX</a></li>
-                            <li><a href="{{ route('events') }}">CORPORATE CONFERENCE & EVENTS</a></li>
+                            <li>
+                                <a href="">ABU DHABI GRAND PRIX</a>
+                                <ul class="mb-0 list-unstyled submenu">
+                                    <li><a href="{{ route('activities') }}">DUBAI ACTIVITIES</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="{{ route('events') }}">CORPORATE CONFERENCE & EVENTS</a>
+                                <ul class="mb-0 list-unstyled submenu">
+                                    <li><a href="{{ route('team') }}">DUBAI CORPORATE TEAM BUILDING ACTIVITIES</a></li>
+                                    <li><a href="{{ route('b2b') }}">B2B CONCIERGE</a></li>
+                                </ul>
+                            </li>
                             <li><a href="{{ route('gallery') }}">GALLERY</a></li>
                             <li><a href="{{ route('contact') }}">CONTACT</a></li>
-                            <li class="top-contact"><a href="tel:"><img src="{{ asset("/images/envelope-icon.svg") }}" alt="Phone icon"></a></li>
+                            <li class="top-contact"><a href="tel:+442031502000"><img src="{{ asset("/images/envelope-icon.svg") }}" alt="Phone icon"></a></li>
                             <li class="top-contact"><a href="mailto:info@gproyale.com"><img src="{{ asset("/images/phone-icon.svg") }}" alt="E-mail icon"></a></li>
                         </ul>
                     </nav>

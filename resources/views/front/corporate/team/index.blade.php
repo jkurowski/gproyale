@@ -1,4 +1,4 @@
-@extends('layouts.page', ['body_class' => 'subpage no-bottom'])
+@extends('layouts.page', ['body_class' => 'subpage no-bottom team-page'])
 
 @section('meta_title', $page->title)
 @section('seo_title', $page->meta_title)
@@ -8,7 +8,7 @@
 @section('pageheader')
     @include('layouts.partials.pageheader', [
     'title' => ($page->content_header) ?: $page->title,
-    'header_file' => 'rooms.jpg',
+    'header_file' => 'team.png',
     'items' => $page
     ])
 @stop
@@ -24,9 +24,9 @@
 
             <div class="col-12 mt-5">
                 <div class="text-inside">
-                    <p class="center-justified">Royale is a premier provider of team building activities for corporate companies, offering unique and exciting experiences such as Camel Polo, VR Infinite Loop, Golf Tournaments, and Crazy Car Races. Organising team activities is an excellent way to build camaraderie and foster teamwork among corporate teams.</p>
+                    <p class="center-justified">GP Royale is a premier provider of team building activities for corporate companies, offering unique and exciting experiences such as Camel Polo, VR Infinite Loop, Golf Tournaments, and Crazy Car Races. Organising activities is an excellent way to build camaraderie and foster teamwork mentality among corporate groups.</p>
                     <p>&nbsp;</p>
-                    <p class="center-justified">These activities allow team members to bond outside of the office setting, engaging in fun and challenging activities together, team members can develop trust, improve communication, and strengthen their relationships, all of which are essential for building a successful team.</p>
+                    <p class="center-justified">These activities allow participants to bond outside of the office setting, engaging in fun and challenging activities together whilst developing trust, improving communication, and strengthening relationships. All of which are essential skills for building greater future collaborative successes.</p>
                 </div>
             </div>
         </div>
@@ -67,13 +67,11 @@
                     <div>
                         <h2>VR INFINITE LOOP</h2>
                         <div class="team-sep"></div>
-                        <p>This team building activity was invented by BizGroup.</p>
+                        <p>Invented by BizGroup, this team building activity uses the latest VR technology to teach participants how to adjust to new environments while working with each other.</p>
                         <p>&nbsp;</p>
-                        <p>It is made with an innovative mind, using the latest VR technology to help teams learn how to adjust to new environments while working with each other.</p>
+                        <p>The Infinite Loop is a strong management business game, based on real-time collaboration and communication. How well the player in the virtual world describes the problem, dictates how quickly teammates in the real world will be able to provide the solution.</p>
                         <p>&nbsp;</p>
-                        <p>The Infinite Loop is a strong management business game, based on real - time collaboration and communication. How well the player in the virtual world describes the problem, dictates how quickly the teammates in the real world will know the solution.</p>
-                        <p>&nbsp;</p>
-                        <p>This activity is for companies who want to put their teams of staff to the test of strong learning curves and working under pressure. It delivers a powerful tool for a debriefing on issues affecting modern businesses, especially with remote workers and teams. 100 + participants</p>
+                        <p>This activity is for companies who want to put their staff to the test, by engaging in strong learning curves, and in working under pressure. The conclusion delivers a powerful tool for a debriefing on issues affecting modern businesses, especially with remote workers. 100+ participants</p>
                     </div>
                 </div>
             </div>
@@ -111,11 +109,11 @@
                     <div>
                         <h2>CRAZY CAR RACES</h2>
                         <div class="team-sep"></div>
-                        <p>Alongside our corporate team building events, culminating in the Abu Dhabi Grand Prix – this team building event hits the spot! Who wouldn’t want a racing game as a team - building activity?</p>
+                        <p>Alongside our corporate events, culminating in the Abu Dhabi Grand Prix – this activity certainly hits the spot! Who wouldn’t want a racing game as a team building event?</p>
                         <p>&nbsp;</p>
-                        <p>Each team will design plans to structure their race car and collect the materials to make it (recycling is a must!).</p>
+                        <p>Each group will design plans to structure their race car and collect the materials to build it (recycling is a must!).</p>
                         <p>&nbsp;</p>
-                        <p>The crazier the car – the more additional points are awarded for creativity; however, the team needs to ensure it can still be ridden in the race. 30 + participants</p>
+                        <p>The crazier the car, the more additional points are awarded for creativity; however, the team needs to ensure it can still be ridden in the race. 30+ participants</p>
                     </div>
                 </div>
             </div>

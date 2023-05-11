@@ -1,4 +1,4 @@
-@extends('layouts.page', ['body_class' => 'subpage'])
+@extends('layouts.page', ['body_class' => 'subpage activities-page'])
 
 @section('meta_title', $page->title)
 @section('seo_title', $page->meta_title)
@@ -8,7 +8,7 @@
 @section('pageheader')
     @include('layouts.partials.pageheader', [
     'title' => ($page->content_header) ?: $page->title,
-    'header_file' => 'rooms.jpg',
+    'header_file' => '15th.png',
     'items' => $page
     ])
 @stop
@@ -24,7 +24,7 @@
         </div>
     </div>
 
-    <section class="team">
+    <section class="team pt-0">
         <div class="container">
             <div class="row">
                 <div class="col-6 pe-5 d-flex align-items-center">

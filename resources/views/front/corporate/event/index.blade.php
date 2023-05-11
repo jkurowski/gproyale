@@ -1,4 +1,4 @@
-@extends('layouts.page', ['body_class' => 'subpage'])
+@extends('layouts.page', ['body_class' => 'subpage conference-page'])
 
 @section('meta_title', $page->title)
 @section('seo_title', $page->meta_title)
@@ -8,7 +8,7 @@
 @section('pageheader')
     @include('layouts.partials.pageheader', [
     'title' => ($page->content_header) ?: $page->title,
-    'header_file' => 'rooms.jpg',
+    'header_file' => '15th.png',
     'items' => $page
     ])
 @stop
@@ -50,7 +50,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p>Corporate events are crucial for any business looking to impress their clients or to network with others in their industry. Working with us is a great opportunity to bring teams t ogether and create a platform that delivers learning, motivation and team work coupled with business efficiency and improved morale, that ultimately improves our client’s bottom line.</p>
+                    <p>Corporate events are crucial for any business looking to impress their clients or to network with others in their industry. Working with us is a great opportunity to bring people together and create a platform that delivers learning, motivation and teamwork, coupled with business efficiency and improved morale, that ultimately improves our client’s bottom line.</p>
                 </div>
             </div>
         </div>
@@ -59,7 +59,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                [[ GALLERY HERE ]]
+                <p>[[ Placeholder for gallery ]]</p>
             </div>
         </div>
     </div>
@@ -74,9 +74,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p>GP Royale are offering to produce corporate conferences and events in Dubai, culminating in a grand finale to your event with access to a superyacht experience at the final race of the 2023 season at the Ya s Marina circuit in Abu Dhabi on Sunday 26 th November.</p>
+                    <p>GP Royale are able to provide both packaged and bespoke corporate conferences and events in Dubai, culminating in an F1 grand finale with access to a superyacht experience at the final race of the 2023 season at the Yas Marina circuit in Abu Dhabi on Sunday 26th November.</p>
                     <p>&nbsp;</p>
-                    <p>Your delegates will enjoy a full day on board a luxury superyacht backing on to the race track, for an unforgettable party experience.</p>
+                    <p>Your delegates will enjoy a full day on board a luxury superyacht backing on to the racetrack, for an unforgettable party experience.</p>
                 </div>
             </div>
         </div>

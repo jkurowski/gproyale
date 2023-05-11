@@ -8,7 +8,7 @@
 @section('pageheader')
     @include('layouts.partials.pageheader', [
     'title' => ($page->content_header) ?: $page->title,
-    'header_file' => 'rooms.jpg',
+    'header_file' => '15th.png',
     'items' => $page
     ])
 @stop
