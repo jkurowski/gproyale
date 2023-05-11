@@ -1027,9 +1027,6 @@ footer a:hover {
   content: "\f00d";
 }
 @media (max-width: 1659.98px) {
-  .container {
-    max-width: 1400px;
-  }
   #pageheader {
     height: 740px;
   }
@@ -1174,17 +1171,6 @@ html.swipebox-html.swipebox-touch {
 #swipebox-bottom-bar {
   top: 50%;
 }
-#swipebox-bottom-bar.visible-bars {
-  -webkit-transform: translate3d(0, -50px, 0);
-  transform: translate3d(0, -50px, 0);
-}
-#swipebox-top-bar {
-  top: -50px;
-}
-#swipebox-top-bar.visible-bars {
-  -webkit-transform: translate3d(0, 50px, 0);
-  transform: translate3d(0, 50px, 0);
-}
 #swipebox-title {
   display: block;
   width: 100%;
@@ -1324,6 +1310,25 @@ html.swipebox-html.swipebox-touch {
 }
 #swipebox-slider .slide img {
   background: white;
+}
+#swipebox-prev,
+#swipebox-next {
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: absolute;
+  cursor: pointer;
+}
+#swipebox-prev i,
+#swipebox-next i {
+  font-size: 50px;
+  color: white;
+}
+#swipebox-prev {
+  left: 50px;
+}
+#swipebox-next {
+  right: 50px;
 }
 @-webkit-keyframes bs-notify-fadeOut {
   0% {

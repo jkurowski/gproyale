@@ -70,8 +70,8 @@ jQuery.easing.jswing=jQuery.easing.swing,jQuery.extend(jQuery.easing,{def:"easeI
 						</div>\
 						<div id="swipebox-bottom-bar">\
 							<div id="swipebox-arrows">\
-								<a id="swipebox-prev"></a>\
-								<a id="swipebox-next"></a>\
+								<a id="swipebox-prev"><i class="las la-arrow-circle-left"></i></a>\
+								<a id="swipebox-next"><i class="las la-arrow-circle-right"></i></a>\
 							</div>\
 						</div>\
 						<a id="swipebox-close"><i class="lar la-times-circle"></i></a>\

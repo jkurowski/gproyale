@@ -59,7 +59,26 @@
     <div class="row">
 
         <div class="col-12 text-center section">
-            <p>[[ Placeholder for gallery ]]</p>
+            <div class="row">
+                <div class="col-6">
+                    <a href="{{ asset('/uploads/gallery/images/main-gal-1.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/main-gal-1.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
+                </div>
+                <div class="col-6">
+                    <a href="{{ asset('/uploads/gallery/images/main-gal-2.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/main-gal-2.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
+                </div>
+                <div class="col-6 mt-4">
+                    <a href="{{ asset('/uploads/gallery/images/main-gal-3.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/main-gal-3.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
+                </div>
+                <div class="col-6 mt-4">
+                    <a href="{{ asset('/uploads/gallery/images/main-gal-4.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/main-gal-4.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
+                </div>
+                <div class="col-6 mt-4">
+                    <a href="{{ asset('/uploads/gallery/images/main-gal-5.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/main-gal-5.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
+                </div>
+                <div class="col-6 mt-4">
+                    <a href="{{ asset('/uploads/gallery/images/main-gal-6.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/main-gal-6.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
+                </div>
+            </div>
         </div>
 
     </div>
