@@ -41,7 +41,9 @@
             </div>
 
             <div class="col-12">
-                <img src="{{ asset('/images/video-past-events.jpg') }}" alt="VIDEO WITH PAST EVENTS" width="1200" height="849" class="m-auto">
+                <a class="swipebox" data-type="video" rel="vimeo" href="http://vimeo.com/819495436">
+                    <img src="{{ asset('/images/video-past-events.jpg') }}" alt="VIDEO WITH PAST EVENTS" width="1200" height="849" class="m-auto">
+                </a>
             </div>
         </div>
     </div>
