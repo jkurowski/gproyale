@@ -807,10 +807,20 @@ section,
 }
 /* Contact
 ================================================== */
+.contact-page #page li {
+  margin: 0 30px;
+}
+.contact-page #page a {
+  color: black;
+  display: flex;
+}
+.contact-page #page a img {
+  margin-right: 15px;
+}
 /* Pageheader
 ================================================== */
 #pageheader {
-  height: 750px;
+  height: 800px;
 }
 #pageheader img {
   margin-bottom: 100px;

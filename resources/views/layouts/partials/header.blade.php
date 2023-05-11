@@ -28,8 +28,8 @@
                             </li>
                             <li><a href="{{ route('gallery') }}">GALLERY</a></li>
                             <li><a href="{{ route('contact') }}">CONTACT</a></li>
-                            <li class="top-contact"><a href="tel:+442031502000"><img src="{{ asset("/images/envelope-icon.svg") }}" alt="Phone icon"></a></li>
-                            <li class="top-contact"><a href="mailto:info@gproyale.com"><img src="{{ asset("/images/phone-icon.svg") }}" alt="E-mail icon"></a></li>
+                            <li class="top-contact"><a href="tel:+442031502000"><img src="{{ asset("/images/phone-icon.svg") }}" alt="E-mail icon"></a></li>
+                            <li class="top-contact"><a href="mailto:info@gproyale.com"><img src="{{ asset("/images/envelope-icon.svg") }}" alt="Phone icon"></a></li>
                         </ul>
                     </nav>
                 </div>

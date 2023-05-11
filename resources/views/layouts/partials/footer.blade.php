@@ -20,7 +20,7 @@
                 </nav>
             </div>
             <div class="col-12 mt-5 text-center">
-                <p>© GPROYALE LTD.</p>
+                <p>© GP ROYALE LIMITED</p>
             </div>
         </div>
     </div>
