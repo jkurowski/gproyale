@@ -1055,6 +1055,12 @@ footer a:hover {
   section {
     padding: 90px 0;
   }
+  header {
+    padding: 30px;
+  }
+  header nav li {
+    margin-left: 40px;
+  }
 }
 /* end of 1399.98 */
 /* end of 1199.98 */
