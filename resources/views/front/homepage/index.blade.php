@@ -22,12 +22,14 @@
                 <div class="section-title">
                     <h2>VIDEO OF PAST EVENTS</h2>
                 </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
 
-                <div class="col-12">
-                    <a class="swipebox" data-type="video" rel="vimeo" href="http://vimeo.com/819495436">
-                        <img src="{{ asset('/images/video-past-events.jpg') }}" alt="VIDEO WITH PAST EVENTS" width="1200" height="849" class="m-auto">
-                    </a>
-                </div>
+            <div class="col-8 col-xxl-12">
+                <a class="swipebox" data-type="video" rel="vimeo" href="http://vimeo.com/819495436">
+                    <img src="{{ asset('/images/video-past-events.jpg') }}" alt="VIDEO WITH PAST EVENTS" width="1200" height="849" class="m-auto">
+                </a>
             </div>
         </div>
     </div>

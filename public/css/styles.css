@@ -482,7 +482,7 @@ header nav ul {
   justify-content: end;
 }
 header nav li {
-  margin-left: 60px;
+  margin-left: 50px;
   position: relative;
   padding: 20px 0;
 }
@@ -1025,6 +1025,36 @@ footer a:hover {
 }
 .openmenu #triggermenu:before {
   content: "\f00d";
+}
+@media (max-width: 1659.98px) {
+  .container {
+    max-width: 1400px;
+  }
+  #pageheader {
+    height: 740px;
+  }
+  #pageheader img {
+    width: 480px;
+  }
+  header.fixed #logo img {
+    height: 70px;
+  }
+  header.fixed nav ul.mainmenu {
+    margin-top: 0;
+  }
+  .h2 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+  .subpage #page li,
+  p {
+    font-size: 22px;
+    line-height: 38px;
+  }
+  .section,
+  section {
+    padding: 90px 0;
+  }
 }
 /* end of 1399.98 */
 /* end of 1199.98 */
