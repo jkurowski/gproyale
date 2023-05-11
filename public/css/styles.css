@@ -1100,7 +1100,7 @@ html.swipebox-html.swipebox-touch {
 }
 #swipebox-slider .slide .swipebox-video-container {
   background: black;
-  max-width: 90% !important;
+  max-width: 1920px !important;
   max-height: 100%;
   width: 100%;
   padding: 0;
