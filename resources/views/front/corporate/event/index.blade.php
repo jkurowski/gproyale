@@ -60,8 +60,32 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center">
-                <p>[[ Placeholder for gallery ]]</p>
+            <div class="col-6">
+                <a href="{{ asset('/uploads/gallery/images/event-gal-1.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/event-gal-1.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
+            </div>
+            <div class="col-6">
+                <a href="{{ asset('/uploads/gallery/images/event-gal-2.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/event-gal-2.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
+            </div>
+            <div class="col-6 mt-4">
+                <a href="{{ asset('/uploads/gallery/images/event-gal-3.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/event-gal-3.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
+            </div>
+            <div class="col-6 mt-4">
+                <a href="{{ asset('/uploads/gallery/images/event-gal-4.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/event-gal-4.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
+            </div>
+            <div class="col-6 mt-4 d-none">
+                <a href="{{ asset('/uploads/gallery/images/event-gal-5.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/event-gal-5.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
+            </div>
+            <div class="col-6 mt-4">
+                <a href="{{ asset('/uploads/gallery/images/event-gal-6.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/event-gal-6.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
+            </div>
+            <div class="col-6 mt-4">
+                <a href="{{ asset('/uploads/gallery/images/event-gal-7.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/event-gal-7.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
+            </div>
+            <div class="col-6 mt-4">
+                <a href="{{ asset('/uploads/gallery/images/event-gal-8.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/event-gal-8.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
+            </div>
+            <div class="col-6 mt-4">
+                <a href="{{ asset('/uploads/gallery/images/event-gal-9.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/event-gal-9.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
             </div>
         </div>
     </div>
