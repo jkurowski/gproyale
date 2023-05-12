@@ -20,6 +20,7 @@
                 </nav>
             </div>
             <div class="col-12 mt-5 text-center">
+                <p>VAT 436 6066 87</p>
                 <p>© GP ROYALE LIMITED</p>
             </div>
         </div>
