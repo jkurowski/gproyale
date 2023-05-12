@@ -14,16 +14,16 @@
                         <ul class="mb-0 list-unstyled mainmenu">
                             <li class="active"><a href="/">HOME</a></li>
                             <li>
-                                <a href="">ABU DHABI GRAND PRIX</a>
-                                <ul class="mb-0 list-unstyled submenu">
-                                    <li><a href="{{ route('activities') }}">DUBAI ACTIVITIES</a></li>
-                                </ul>
-                            </li>
-                            <li>
                                 <a href="{{ route('events') }}">CORPORATE CONFERENCE & EVENTS</a>
                                 <ul class="mb-0 list-unstyled submenu">
                                     <li><a href="{{ route('team') }}">DUBAI CORPORATE TEAM BUILDING ACTIVITIES</a></li>
                                     <li><a href="{{ route('b2b') }}">B2B CONCIERGE</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">ABU DHABI GRAND PRIX</a>
+                                <ul class="mb-0 list-unstyled submenu">
+                                    <li><a href="{{ route('activities') }}">DUBAI ACTIVITIES</a></li>
                                 </ul>
                             </li>
                             <li><a href="{{ route('gallery') }}">GALLERY</a></li>

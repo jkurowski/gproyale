@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="text-inside">
-                    <p class="h2 center-justified"><b>GP Royale</b> was born out of past experiences with large scale global conferences, that provides bespoke ive conference and event services to corporate companies. We have produced corporate events across the world, in Warsaw, London O2, Tokyo, Rio de Janeiro, Barcelona, Hanoi and Dubai, to name just a few.</p>
+                    <p class="h2 center-justified"><b>GP Royale</b> was born out of past experiences with large scale global conferences, that provides bespoke live conference and event services to corporate companies. We have produced corporate events across the world, in Warsaw, London O2, Tokyo, Rio de Janeiro, Barcelona, Hanoi and Dubai, to name just a few.</p>
                 </div>
 
                 <div class="section-title">

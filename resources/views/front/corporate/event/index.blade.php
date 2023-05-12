@@ -72,7 +72,7 @@
             <div class="col-6 mt-4">
                 <a href="{{ asset('/uploads/gallery/images/event-gal-4.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/event-gal-4.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
             </div>
-            <div class="col-6 mt-4 d-none">
+            <div class="col-6 mt-4">
                 <a href="{{ asset('/uploads/gallery/images/event-gal-5.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/event-gal-5.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
             </div>
             <div class="col-6 mt-4">
@@ -86,6 +86,9 @@
             </div>
             <div class="col-6 mt-4">
                 <a href="{{ asset('/uploads/gallery/images/event-gal-9.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/event-gal-9.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
+            </div>
+            <div class="col-6 mt-4">
+                <a href="{{ asset('/uploads/gallery/images/event-gal-10.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/event-gal-10.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
             </div>
         </div>
     </div>
