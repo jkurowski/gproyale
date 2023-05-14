@@ -684,6 +684,10 @@ section,
   letter-spacing: 30px;
   text-transform: uppercase;
 }
+.section-title h2.bg-none,
+.section-title h1.bg-none {
+  background: none;
+}
 .separator {
   padding: 100px 0;
 }
@@ -827,42 +831,38 @@ section,
 /* Pageheader
 ================================================== */
 #pageheader {
-  height: 800px;
+  height: 880px;
+  background-size: cover !important;
 }
 #pageheader img {
   margin-bottom: 100px;
 }
 .contact-page #pageheader {
   background: url("../images/headers/contact.jpg") no-repeat;
-  background-size: cover;
 }
 .gallery-page #pageheader {
   background: url("../images/headers/gallery.jpg") no-repeat;
-  background-size: cover;
 }
 .team-page #pageheader {
   background: url("../images/headers/team.jpg") no-repeat;
-  background-size: cover;
 }
 .event-page #pageheader {
   background: url("../images/headers/events.jpg") no-repeat;
-  background-size: cover;
 }
 .b2b-page #pageheader {
   background: url("../images/headers/events.jpg") no-repeat;
-  background-size: cover;
 }
 .conference-page #pageheader {
   background: url("../images/headers/conference.jpg") no-repeat;
-  background-size: cover;
 }
 .privacy-policy #pageheader {
   background: url("../images/headers/privacy-policy.jpg") no-repeat;
-  background-size: cover;
 }
 .activities-page #pageheader {
   background: url("../images/headers/activities.jpg") no-repeat;
-  background-size: cover;
+}
+.bespoke-page #pageheader {
+  background: url("../images/headers/bespoke.jpg") no-repeat;
 }
 /* Slick
 ================================================== */
