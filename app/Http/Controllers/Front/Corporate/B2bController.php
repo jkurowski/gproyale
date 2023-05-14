@@ -11,7 +11,7 @@ class B2bController extends Controller
     {
         app()->setLocale('en');
         return view('front.corporate.b2b.index', [
-            'page' => Page::find(3)
+            'page' => Page::find(9)
         ]);
     }
 }
