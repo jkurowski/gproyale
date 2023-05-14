@@ -12,7 +12,7 @@ class IndexController extends Controller
     {
         app()->setLocale('en');
         return view('front.bespoke.index', [
-            'page' => Page::find(3)
+            'page' => Page::find(6)
         ]);
     }
 }

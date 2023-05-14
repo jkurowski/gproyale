@@ -12,7 +12,7 @@ class EventController extends Controller
     {
         app()->setLocale('en');
         return view('front.corporate.event.index', [
-            'page' => Page::find(3)
+            'page' => Page::find(7)
         ]);
     }
 }
