@@ -14,7 +14,7 @@
 @stop
 
 @section('content')
-    <div class="container mb-5 pb-5">
+    <div class="container mb-0 mb-sm-5 pb-5">
         <div class="row">
             <div class="col-12">
                 <div class="section-title">
@@ -27,7 +27,7 @@
     <section class="team pt-0">
         <div class="container">
             <div class="row">
-                <div class="col-6 pe-5 d-flex align-items-center">
+                <div class="col-12 col-md-6 pe-3 pe-md-5 d-flex align-items-center">
                     <div>
                         <h2>Tandem Skydive Experience</h2>
                         <div class="team-sep"></div>
@@ -40,7 +40,7 @@
                         <p><b>The full experience takes between 3 and 4 hours</b></p>
                     </div>
                 </div>
-                <div class="col-6 ps-5 d-flex justify-content-end align-items-center">
+                <div class="col-12 col-md-6 ps-3 ps-md-5 mt-4 mt-md-0 d-flex justify-content-end align-items-center">
                     <img src="{{ asset('/images/tandem-skydive-experience.jpg') }}" width="640" height="640" alt="ALT Here">
                 </div>
             </div>
@@ -50,10 +50,10 @@
     <section class="team">
         <div class="container">
             <div class="row">
-                <div class="col-6 pe-5 d-flex justify-content-start align-items-center">
+                <div class="col-12 col-md-6 pe-3 pe-md-5 mb-4 mb-md-0 d-flex justify-content-start align-items-center">
                     <img src="{{ asset('/images/helicopter-sightseeing-tour.jpg') }}" width="640" height="640" alt="ALT Here">
                 </div>
-                <div class="col-6 ps-5 d-flex align-items-center">
+                <div class="col-12 col-md-6 ps-3 ps-md-5 d-flex align-items-center">
                     <div>
                         <h2>Helicopter Sightseeing Tour</h2>
                         <div class="team-sep"></div>
@@ -71,7 +71,7 @@
     <section class="team">
         <div class="container">
             <div class="row">
-                <div class="col-6 pe-5 d-flex align-items-center">
+                <div class="col-12 col-md-6 pe-3 pe-md-5 d-flex align-items-center">
                     <div>
                         <h2>Sunrise Hot Air Balloon Flight Over the Desert</h2>
                         <div class="team-sep"></div>
@@ -82,7 +82,7 @@
                         <p><b>This experience takes up to 4 hours.</b></p>
                     </div>
                 </div>
-                <div class="col-6 ps-5 d-flex justify-content-end align-items-center">
+                <div class="col-12 col-md-6 ps-3 ps-md-5 mt-4 mt-md-0 d-flex justify-content-end align-items-center">
                     <img src="{{ asset('/images/sunrise-hot-air-balloon.jpg') }}" width="640" height="640" alt="ALT Here">
                 </div>
             </div>
@@ -92,10 +92,10 @@
     <section class="team">
         <div class="container">
             <div class="row">
-                <div class="col-6 pe-5 d-flex justify-content-start align-items-center">
+                <div class="col-12 col-md-6 pe-3 pe-md-5 mb-4 mb-md-0 d-flex justify-content-start align-items-center">
                     <img src="{{ asset('/images/golf-tournaments.jpg') }}" width="640" height="640" alt="ALT Here">
                 </div>
-                <div class="col-6 ps-5 d-flex align-items-center">
+                <div class="col-12 col-md-6 ps-3 ps-md-5 d-flex align-items-center">
                     <div>
                         <h2>Golf Tournaments</h2>
                         <div class="team-sep"></div>
@@ -111,7 +111,7 @@
     <section class="team">
         <div class="container">
             <div class="row">
-                <div class="col-6 pe-5 d-flex align-items-center">
+                <div class="col-12 col-md-6 pe-3 pe-md-5 d-flex align-items-center">
                     <div>
                         <h2>Camel Polo</h2>
                         <div class="team-sep"></div>
@@ -126,7 +126,7 @@
                         <p><b>The duration of the event will be around 3 - 4 hours, depending on group size (from 8 to 60)</b></p>
                     </div>
                 </div>
-                <div class="col-6 ps-5 d-flex justify-content-end align-items-center">
+                <div class="col-12 col-md-6 ps-3 ps-md-5 mt-4 mt-md-0 d-flex justify-content-end align-items-center">
                     <img src="{{ asset('/images/camel-polo-2.jpg') }}" width="640" height="640" alt="ALT Here">
                 </div>
             </div>
@@ -136,10 +136,10 @@
     <section class="team">
         <div class="container">
             <div class="row">
-                <div class="col-6 pe-5 d-flex justify-content-start align-items-center">
+                <div class="col-12 col-md-6 pe-3 pe-md-5 mb-4 mb-md-0 d-flex justify-content-start align-items-center">
                     <img src="{{ asset('/images/burj-khalifa.jpg') }}" width="640" height="640" alt="ALT Here">
                 </div>
-                <div class="col-6 ps-5 d-flex align-items-center">
+                <div class="col-12 col-md-6 ps-3 ps-md-5 d-flex align-items-center">
                     <div>
                         <h2>Burj Khalifa</h2>
                         <div class="team-sep"></div>
@@ -157,7 +157,7 @@
     <section class="team">
         <div class="container">
             <div class="row">
-                <div class="col-6 pe-5 d-flex align-items-center">
+                <div class="col-12 col-md-6 pe-3 pe-md-5 d-flex align-items-center">
                     <div>
                         <h2>700HP Speedboat Tours</h2>
                         <div class="team-sep"></div>
@@ -170,7 +170,7 @@
                         <p><b>Duration: 1 hour 40 minutes <br>Maximum of 12 per group</b></p>
                     </div>
                 </div>
-                <div class="col-6 ps-5 d-flex justify-content-end align-items-center">
+                <div class="col-12 col-md-6 ps-3 ps-md-5 mt-4 mt-md-0 d-flex justify-content-end align-items-center">
                     <img src="{{ asset('/images/speedboat.jpg') }}" width="640" height="640" alt="ALT Here">
                 </div>
             </div>
@@ -180,10 +180,10 @@
     <section class="team">
         <div class="container">
             <div class="row">
-                <div class="col-6 pe-5 d-flex justify-content-start align-items-center">
+                <div class="col-12 col-md-6 pe-3 pe-md-5 mb-4 mb-md-0 d-flex justify-content-start align-items-center">
                     <img src="{{ asset('/images/safari.jpg') }}" width="640" height="640" alt="ALT Here">
                 </div>
-                <div class="col-6 ps-5 d-flex align-items-center">
+                <div class="col-12 col-md-6 ps-3 ps-md-5 d-flex align-items-center">
                     <div>
                         <h2>Dubai Desert Red Dune Half Day Safari</h2>
                         <div class="team-sep"></div>

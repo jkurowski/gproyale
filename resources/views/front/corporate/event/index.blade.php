@@ -39,8 +39,9 @@
                     <h2>PAST EVENTS</h2>
                 </div>
             </div>
-
-            <div class="col-12">
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-lg-8 col-xl-6 p-0">
                 <a class="swipebox" data-type="video" rel="vimeo" href="http://vimeo.com/819495436">
                     <img src="{{ asset('/images/video-past-events.jpg') }}" alt="VIDEO WITH PAST EVENTS" width="1200" height="849" class="m-auto">
                 </a>

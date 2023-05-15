@@ -14,7 +14,7 @@
 @stop
 
 @section('content')
-    <div class="container mb-5 pb-5">
+    <div class="container mb-0 mb-sm-5 pb-5">
         <div class="row">
             <div class="col-12">
                 <div class="section-title">
@@ -22,7 +22,7 @@
                 </div>
             </div>
 
-            <div class="col-12 mt-5">
+            <div class="col-12 mt-3 mt-md-5">
                 <div class="text-inside">
                     <p class="center-justified">GP Royale is a premier provider of team building activities for corporate companies, offering unique and exciting experiences such as Camel Polo, VR Infinite Loop, Golf Tournaments, and Crazy Car Races. Organising activities is an excellent way to build camaraderie and foster teamwork mentality among corporate groups.</p>
                     <p>&nbsp;</p>
@@ -35,7 +35,7 @@
     <section class="team">
         <div class="container">
             <div class="row">
-                <div class="col-6 pe-5 d-flex align-items-center">
+                <div class="col-12 col-md-6 pe-3 pe-md-5 d-flex align-items-center">
                     <div>
                         <h2>CAMEL POLO</h2>
                         <div class="team-sep"></div>
@@ -50,7 +50,7 @@
                         <p><b>The duration of the event will be around 3 - 4 hours, depending on group size (from 8 to 60)</b></p>
                     </div>
                 </div>
-                <div class="col-6 ps-5 d-flex justify-content-end align-items-center">
+                <div class="col-12 col-md-6 ps-3 ps-md-5 mt-4 mt-md-0 d-flex justify-content-end align-items-center">
                     <img src="{{ asset('/images/camel-polo.jpg') }}" width="640" height="640" alt="ALT Here">
                 </div>
             </div>
@@ -60,10 +60,10 @@
     <section class="team team-grey">
         <div class="container">
             <div class="row">
-                <div class="col-6 pe-5 d-flex justify-content-start align-items-center">
+                <div class="col-12 col-md-6 pe-3 pe-md-5 mb-4 mb-md-0 d-flex justify-content-start align-items-center">
                     <img src="{{ asset('/images/vr.jpg') }}" width="640" height="640" alt="ALT Here">
                 </div>
-                <div class="col-6 ps-5 d-flex align-items-center">
+                <div class="col-12 col-md-6 ps-3 ps-md-5 d-flex align-items-center">
                     <div>
                         <h2>VR INFINITE LOOP</h2>
                         <div class="team-sep"></div>
@@ -81,7 +81,7 @@
     <section class="team">
         <div class="container">
             <div class="row">
-                <div class="col-6 pe-5 d-flex align-items-center">
+                <div class="col-12 col-md-6 pe-3 pe-mb-5 d-flex align-items-center">
                     <div>
                         <h2>GOLF TOURNAMENTS</h2>
                         <div class="team-sep"></div>
@@ -92,7 +92,7 @@
                         <p>Utilizing your marketing and networking opportunities for a corporate golf day within a corporate golf setting will advance your brand image and forge relationships that are core to your business growth.</p>
                     </div>
                 </div>
-                <div class="col-6 ps-5 d-flex justify-content-end align-items-center">
+                <div class="col-12 col-md-6 ps-3 ps-md-5 mt-4 mt-md-0 d-flex justify-content-end align-items-center">
                     <img src="{{ asset('/images/golf-tournaments.jpg') }}" width="640" height="640" alt="ALT Here">
                 </div>
             </div>
@@ -102,10 +102,10 @@
     <section class="team team-grey">
         <div class="container">
             <div class="row">
-                <div class="col-6 pe-5 d-flex justify-content-start align-items-center">
+                <div class="col-12 col-md-6 pe-3 pe-mb-5 mb-4 mb-md-0 d-flex justify-content-start align-items-center">
                     <img src="{{ asset('/images/crazy-car-races.jpg') }}" width="640" height="640" alt="ALT Here">
                 </div>
-                <div class="col-6 ps-5 d-flex align-items-center">
+                <div class="col-12 col-md-6 ps-3 ps-md-5 d-flex align-items-center">
                     <div>
                         <h2>CRAZY CAR RACES</h2>
                         <div class="team-sep"></div>
