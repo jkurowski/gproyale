@@ -1401,6 +1401,17 @@ footer a:hover {
   .content {
     padding: 10px 25px 25px;
   }
+  .contact-page #page ul {
+    flex-wrap: wrap;
+  }
+  .contact-page #page ul a {
+    justify-content: center;
+  }
+  .contact-page #page li {
+    width: 100%;
+    display: block;
+    margin: 30px 0 0;
+  }
 }
 /* end of 575.98 */
 /* end of 359.98 */
