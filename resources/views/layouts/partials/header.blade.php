@@ -13,18 +13,18 @@
                     <nav role="navigation">
                         <ul class="mb-0 list-unstyled mainmenu">
                             <li class="active"><a href="/">HOME</a></li>
-                            <li>
+                            <li class="gotsubmenu">
                                 <a href="{{ route('events') }}">CORPORATE CONFERENCE & EVENTS</a>
                                 <ul class="mb-0 list-unstyled submenu">
-                                    <li><a href="{{ route('team') }}">DUBAI CORPORATE TEAM BUILDING ACTIVITIES</a></li>
-                                    <li><a href="{{ route('b2b') }}">B2B CONCIERGE</a></li>
+                                    <li><i class="las la-arrow-right"></i> <a href="{{ route('team') }}">Dubai corporate team-building activities</a></li>
+                                    <li><i class="las la-arrow-right"></i> <a href="{{ route('b2b') }}">B2B concierge</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="gotsubmenu">
                                 <a href="">ABU DHABI GRAND PRIX</a>
                                 <ul class="mb-0 list-unstyled submenu">
-                                    <li><a href="{{ route('activities') }}">DUBAI ACTIVITIES</a></li>
-                                    <li><a href="{{ route('bespoke') }}">BESPOKE CONCIERGE</a></li>
+                                    <li><i class="las la-arrow-right"></i> <a href="{{ route('activities') }}">Dubai activities</a></li>
+                                    <li><i class="las la-arrow-right"></i> <a href="{{ route('bespoke') }}">Bespoke concierge</a></li>
                                 </ul>
                             </li>
                             <li><a href="{{ route('gallery') }}">GALLERY</a></li>

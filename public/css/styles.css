@@ -523,6 +523,7 @@ header nav li ul li:hover {
 }
 header nav li ul li a {
   font-size: 15px;
+  text-transform: uppercase;
 }
 header nav li ul li:last-child {
   margin-left: 0;
@@ -1006,6 +1007,9 @@ footer a:hover {
 .top-menu-close a i {
   font-size: 32px;
 }
+.submenu i {
+  display: none;
+}
 @media (min-width: 1920px) {
   .container {
     max-width: 1520px;
@@ -1225,6 +1229,7 @@ footer a:hover {
     bottom: 0;
     left: 0;
     right: 0;
+    padding: 15px;
   }
   .openmenu header nav li.active,
   .openmenu header nav li:hover {
@@ -1234,32 +1239,51 @@ footer a:hover {
     display: block;
     width: 100%;
     text-align: left;
-    margin: 8px 0 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 0;
+    margin: 0;
+    line-height: normal;
+  }
+  .openmenu header nav li.gotsubmenu {
+    padding-bottom: 0;
+    border: 0;
   }
   .openmenu header nav li a {
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.9);
   }
   .openmenu header nav li ul {
     display: block;
     visibility: visible;
     opacity: 1;
+    margin: 0;
   }
   .openmenu header nav li ul li {
     margin-top: 0;
-    padding-left: 20px;
+    padding-left: 0;
   }
   .openmenu header nav li ul li a {
     font-size: 15px;
+    color: #c6c6c6;
+    text-transform: none;
   }
   .openmenu header .mainmenu {
-    margin-top: 30px;
+    margin-top: 10px;
+  }
+  .openmenu header .submenu i {
+    display: block;
+    margin-right: 10px;
+    font-size: 20px;
+    float: left;
+    color: #b58665;
   }
   .openmenu header .top-menu {
     display: none !important;
   }
   .openmenu header .top-contact {
     width: 50%;
-    margin-top: 30px;
+    margin-top: 15px;
+    padding: 0;
+    border: 0;
   }
   .openmenu header .top-contact a {
     justify-content: center;
@@ -1269,7 +1293,7 @@ footer a:hover {
     width: 100%;
   }
   .openmenu .col-3 img {
-    width: 120px;
+    width: 100px;
     margin: 0 auto;
   }
   .openmenu .col-9 ul {
