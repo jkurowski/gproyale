@@ -29,12 +29,16 @@
                             </li>
                             <li><a href="{{ route('gallery') }}">GALLERY</a></li>
                             <li><a href="{{ route('contact') }}">CONTACT</a></li>
+                            <li class="top-menu d-inline-flex d-xl-none"><a href="#" id="triggermenu"><i class="las la-bars"></i></a></li>
                             <li class="top-contact"><a href="tel:+442031502000"><img src="{{ asset("/images/phone-icon.svg") }}" alt="E-mail icon"></a></li>
                             <li class="top-contact"><a href="mailto:info@gproyale.com"><img src="{{ asset("/images/envelope-icon.svg") }}" alt="Phone icon"></a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
+        </div>
+        <div class="top-menu-close">
+            <a href="#" id="triggermenu"><i class="lar la-window-close"></i></a>
         </div>
     </header>
 </div>
