@@ -135,55 +135,55 @@
     <section>
         <div class="container-fluid p-0">
             <div class="row no-gutters">
-                <div class="col-2">
+                <div class="col-4 col-sm-2">
                     <img src="{{ asset('/images/gallery/homepage-gallery-short-1.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
                 </div>
-                <div class="col-4">
+                <div class="col-8 col-sm-4">
                     <img src="{{ asset('/images/gallery/homepage-gallery-long-1.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
                 </div>
-                <div class="col-2">
+                <div class="col-4 col-sm-2">
                     <img src="{{ asset('/images/gallery/homepage-gallery-short-2.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
                 </div>
-                <div class="col-4">
+                <div class="col-8 col-sm-4">
                     <img src="{{ asset('/images/gallery/homepage-gallery-long-2.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
                 </div>
             </div>
             <div class="row no-gutters">
-                <div class="col-4">
+                <div class="col-8 col-sm-4">
                     <img src="{{ asset('/images/gallery/homepage-gallery-long-3.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
                 </div>
-                <div class="col-2">
+                <div class="col-4 col-sm-2">
                     <img src="{{ asset('/images/gallery/homepage-gallery-short-3.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
                 </div>
-                <div class="col-4">
+                <div class="col-8 col-sm-4">
                     <img src="{{ asset('/images/gallery/homepage-gallery-long-4.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
                 </div>
-                <div class="col-2">
+                <div class="col-4 col-sm-2">
                     <img src="{{ asset('/images/gallery/homepage-gallery-short-4.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
                 </div>
             </div>
             <div class="row no-gutters">
-                <div class="col-4">
+                <div class="col-12">
                     <img src="{{ asset('/images/gallery/homepage-gallery-long-5.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
                 </div>
-                <div class="col-4">
+                <div class="col-6">
                     <img src="{{ asset('/images/gallery/homepage-gallery-long-6.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
                 </div>
-                <div class="col-4">
+                <div class="col-6">
                     <img src="{{ asset('/images/gallery/homepage-gallery-long-7.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
                 </div>
             </div>
             <div class="row no-gutters">
-                <div class="col-2">
+                <div class="col-4 col-sm-2">
                     <img src="{{ asset('/images/gallery/homepage-gallery-short-5.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
                 </div>
-                <div class="col-4">
+                <div class="col-8 col-sm-4">
                     <img src="{{ asset('/images/gallery/homepage-gallery-long-8.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
                 </div>
-                <div class="col-2">
+                <div class="col-4 col-sm-2">
                     <img src="{{ asset('/images/gallery/homepage-gallery-short-6.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
                 </div>
-                <div class="col-4">
+                <div class="col-8 col-sm-4">
                     <img src="{{ asset('/images/gallery/homepage-gallery-long-9.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
                 </div>
             </div>
