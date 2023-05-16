@@ -24,7 +24,7 @@
                                 <a href="">ABU DHABI GRAND PRIX</a>
                                 <ul class="mb-0 list-unstyled submenu">
                                     <li><i class="las la-arrow-right"></i> <a href="{{ route('activities') }}">Dubai activities</a></li>
-                                    <li><i class="las la-arrow-right"></i> <a href="{{ route('bespoke') }}">Bespoke concierge</a></li>
+                                    <li><i class="las la-arrow-right"></i> <a href="{{ route('bespoke') }}">Bespoke event concierge</a></li>
                                 </ul>
                             </li>
                             <li><a href="{{ route('gallery') }}">GALLERY</a></li>

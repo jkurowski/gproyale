@@ -140,17 +140,17 @@
         </div>
     </section>
 
-    <section class="pt-0">
+    <section id="bespokeGalery" class="pt-0">
         <div class="container-fluid p-0">
             <div class="row no-gutters">
-                <div class="col-6 col-sm-3"><img src="{{ asset("/images/bespoke/bespoke-square-1.jpg") }}" class="w-100" alt=""></div>
-                <div class="col-6 col-sm-3"><img src="{{ asset("/images/bespoke/bespoke-square-2.jpg") }}" class="w-100" alt=""></div>
-                <div class="col-6 col-sm-3"><img src="{{ asset("/images/bespoke/bespoke-square-3.jpg") }}" class="w-100" alt=""></div>
-                <div class="col-6 col-sm-3"><img src="{{ asset("/images/bespoke/bespoke-square-4.jpg") }}" class="w-100" alt=""></div>
-                <div class="col-6 col-sm-3"><img src="{{ asset("/images/bespoke/bespoke-square-5.jpg") }}" class="w-100" alt=""></div>
-                <div class="col-6 col-sm-3"><img src="{{ asset("/images/bespoke/bespoke-square-6.jpg") }}" class="w-100" alt=""></div>
-                <div class="col-6 col-sm-3"><img src="{{ asset("/images/bespoke/bespoke-square-7.jpg") }}" class="w-100" alt=""></div>
-                <div class="col-6 col-sm-3"><img src="{{ asset("/images/bespoke/bespoke-square-8.jpg") }}" class="w-100" alt=""></div>
+                <div class="col-6 col-sm-3 bespoke-img"><img src="{{ asset("/images/bespoke/bespoke-square-1.jpg") }}" class="w-100" alt=""></div>
+                <div class="col-6 col-sm-3 bespoke-img"><img src="{{ asset("/images/bespoke/bespoke-square-2.jpg") }}" class="w-100" alt=""></div>
+                <div class="col-6 col-sm-3 bespoke-img"><img src="{{ asset("/images/bespoke/bespoke-square-3.jpg") }}" class="w-100" alt=""></div>
+                <div class="col-6 col-sm-3 bespoke-img"><img src="{{ asset("/images/bespoke/bespoke-square-4.jpg") }}" class="w-100" alt=""></div>
+                <div class="col-6 col-sm-3 bespoke-img"><img src="{{ asset("/images/bespoke/bespoke-square-5.jpg") }}" class="w-100" alt=""></div>
+                <div class="col-6 col-sm-3 bespoke-img"><img src="{{ asset("/images/bespoke/bespoke-square-6.jpg") }}" class="w-100" alt=""></div>
+                <div class="col-6 col-sm-3 bespoke-img"><img src="{{ asset("/images/bespoke/bespoke-square-7.jpg") }}" class="w-100" alt=""></div>
+                <div class="col-6 col-sm-3 bespoke-img"><img src="{{ asset("/images/bespoke/bespoke-square-8.jpg") }}" class="w-100" alt=""></div>
             </div>
         </div>
     </section>

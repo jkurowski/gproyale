@@ -861,6 +861,13 @@ section,
 .bespoke-page #pageheader {
   background: url("../images/headers/bespoke.jpg") no-repeat;
 }
+#bespokeGalery {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+.bespoke-img {
+  padding: 1px !important;
+}
 /* Slick
 ================================================== */
 .slick-slider {
@@ -1425,6 +1432,9 @@ footer a:hover {
 @media (max-width: 575.98px) {
   #page {
     padding: 25px;
+  }
+  .team.team-grey {
+    padding-top: 12px;
   }
   .team h2 {
     font-size: 20px;
