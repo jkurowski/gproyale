@@ -163,13 +163,13 @@
                 </div>
             </div>
             <div class="row no-gutters">
-                <div class="col-12">
+                <div class="col-12 col-sm-4">
                     <img src="{{ asset('/images/gallery/homepage-gallery-long-5.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-6 col-sm-4">
                     <img src="{{ asset('/images/gallery/homepage-gallery-long-6.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-6 col-sm-4">
                     <img src="{{ asset('/images/gallery/homepage-gallery-long-7.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
                 </div>
             </div>
