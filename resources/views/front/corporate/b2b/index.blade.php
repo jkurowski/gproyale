@@ -70,7 +70,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <blockquote class="freight text-center mb-0">CONNECT, COLLABORATE <i>and</i> GROW <i>with</i> GP ROYALE EXCLUSIVE BUSINESS <i>platform in</i> DUBAI</blockquote>
+                <blockquote class="freight text-center mb-0">CONNECT, COLLABORATE <i>and</i> GROW <i>with</i> <br>GP ROYALE’S EXCLUSIVE BUSINESS <i>platform in</i> DUBAI</blockquote>
             </div>
         </div>
     </div>

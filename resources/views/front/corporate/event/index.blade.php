@@ -8,7 +8,7 @@
 @section('pageheader')
     @include('layouts.partials.pageheader', [
     'title' => ($page->content_header) ?: $page->title,
-    'header_file' => '15th.png',
+    'header_file' => '',
     'items' => $page
     ])
 @stop
@@ -25,11 +25,9 @@
             <div class="col-12">
                 <p class="h2">GP Royale is a leading live event and conference production company.</p>
                 <p>&nbsp;</p>
-                <p>We have produced corporate events across the world, in Warsaw, London O2, Tokyo, Rio de Janeiro, Barcelona, Hanoi and Dubai, to name just a few.</p>
+                <p>With a wealth of experience organising conferences and events, it is our attention to detail that ensures everything runs to plan. You have the option to consult our creative media specialists regarding marketing, branding and communication, with continued support prior, during and post event.</p>
                 <p>&nbsp;</p>
-                <p>With a wealth of experience organi sing conferences and events , it is our attention to detail that ensures everything runs to plan. You have the option to consult our creative media specialists regarding marketing, branding and communication, with continued support prior, during and post event.</p>
-                <p>&nbsp;</p>
-                <p>We collaborate closely with our clients to achieve their vision, co - curating programming and working with our in - house creative teams. We have a skilled and dedicated event production team that ensures the event is extraordinary in every way. From technical and digital production including lighting des ign, AV, sound and film production - to set build and on - line streaming / digital platforms.</p>
+                <p>We collaborate closely with our clients to achieve their vision, co-curating programming and working with our in-house creative teams. We have a skilled and dedicated event production team that ensures the event is extraordinary in every way. From technical and digital production including AV sound and film production, and lighting design, to set build, and on-line streaming / digital platforms.</p>
                 <p>&nbsp;</p>
                 <p>Our list of international motivational speakers, music artistes and entertainment is second to none.</p>
             </div>

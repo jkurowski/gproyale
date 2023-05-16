@@ -43,9 +43,9 @@
                         <p>&nbsp;</p>
                         <p>The Camel Polo experience includes a training session, in which clients are shown some basic skills, and then there is time to put those skills into action with a tournament.</p>
                         <p>&nbsp;</p>
-                        <p>Each camel will have one participant (or a driver) sitting in front of the hump to steer, whilst their team - mate is perched behind the hump, hitting the ball.</p>
+                        <p>Each camel will have one participant (or a driver) sitting in front of the hump to steer, whilst their team-mate is perched behind the hump, hitting the ball.</p>
                         <p>&nbsp;</p>
-                        <p>Each camel will be accompanied by a trainer on - foot, who will have the camel on a lead rein, but is only there for assistance and in no way allowed to interfere with the play.</p>
+                        <p>Each camel will be accompanied by a trainer on-foot, who will have the camel on a lead rein, but is only there for assistance and in no way allowed to interfere with the play.</p>
                         <p>&nbsp;</p>
                         <p><b>The duration of the event will be around 3 - 4 hours, depending on group size (from 8 to 60)</b></p>
                     </div>
@@ -87,7 +87,7 @@
                         <div class="team-sep"></div>
                         <p>From charity events and team building sessions to appreciating your clients, we can arrange a fully branded golf tournament that will leave a lasting impression on your staff or guests.</p>
                         <p>&nbsp;</p>
-                        <p>Building and maintaining a powerful, professional and strong brand im age is imperative for any successful, thriving business.</p>
+                        <p>Building and maintaining a powerful, professional and strong brand image is imperative for any successful, thriving business.</p>
                         <p>&nbsp;</p>
                         <p>Utilizing your marketing and networking opportunities for a corporate golf day within a corporate golf setting will advance your brand image and forge relationships that are core to your business growth.</p>
                     </div>

@@ -63,22 +63,22 @@
             <div class="col-12 text-center section">
                 <div class="row">
                     <div class="col-6">
-                        <a href="{{ asset('/uploads/gallery/images/main-gal-1.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/main-gal-1.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
+                        <a href="{{ asset('/uploads/gallery/images/main-gal-1.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/main-gal-1.jpg') }}" loading="lazy" width="700" height="400" class="w-100" alt=""></a>
                     </div>
                     <div class="col-6">
-                        <a href="{{ asset('/uploads/gallery/images/main-gal-2.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/main-gal-2.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
+                        <a href="{{ asset('/uploads/gallery/images/main-gal-2.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/main-gal-2.jpg') }}" loading="lazy" width="700" height="400" class="w-100" alt=""></a>
                     </div>
                     <div class="col-6 mt-4">
-                        <a href="{{ asset('/uploads/gallery/images/main-gal-3.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/main-gal-3.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
+                        <a href="{{ asset('/uploads/gallery/images/main-gal-3.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/main-gal-3.jpg') }}" loading="lazy" width="700" height="400" class="w-100" alt=""></a>
                     </div>
                     <div class="col-6 mt-4">
-                        <a href="{{ asset('/uploads/gallery/images/main-gal-4.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/main-gal-4.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
+                        <a href="{{ asset('/uploads/gallery/images/main-gal-4.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/main-gal-4.jpg') }}" loading="lazy" width="700" height="400" class="w-100" alt=""></a>
                     </div>
                     <div class="col-6 mt-4">
-                        <a href="{{ asset('/uploads/gallery/images/main-gal-5.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/main-gal-5.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
+                        <a href="{{ asset('/uploads/gallery/images/main-gal-5.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/main-gal-5.jpg') }}" loading="lazy" width="700" height="400" class="w-100" alt=""></a>
                     </div>
                     <div class="col-6 mt-4">
-                        <a href="{{ asset('/uploads/gallery/images/main-gal-6.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/main-gal-6.jpg') }}" width="700" height="400" class="w-100" alt=""></a>
+                        <a href="{{ asset('/uploads/gallery/images/main-gal-6.jpg') }}" class="swipebox" rel="maingal"><img src="{{ asset('/uploads/gallery/images/thumbs/main-gal-6.jpg') }}" loading="lazy" width="700" height="400" class="w-100" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -100,12 +100,12 @@
                     <div class="row">
                         <div class="col-6">
                             <a class="swipebox" data-type="video" rel="vimeo-abu-dhabi" href="http://vimeo.com/804275495">
-                                <img src="{{ asset('/images/video-abu-dhabi-grand-prix.jpg') }}" width="780" height="550" alt="VIDEO ABU DHABI GRAND PRIX">
+                                <img src="{{ asset('/images/video-abu-dhabi-grand-prix.jpg') }}" loading="lazy" width="780" height="550" alt="VIDEO ABU DHABI GRAND PRIX">
                             </a>
                         </div>
                         <div class="col-6">
                             <a class="swipebox" data-type="video" rel="vimeo-monaco-grand-prix" href="http://vimeo.com/804279459">
-                                <img src="{{ asset('/images/video-monaco-grand-prix.jpg') }}" width="780" height="550" alt="VIDEO MONACO GRAND PRIX">
+                                <img src="{{ asset('/images/video-monaco-grand-prix.jpg') }}" loading="lazy" width="780" height="550" alt="VIDEO MONACO GRAND PRIX">
                             </a>
                         </div>
                     </div>
@@ -114,7 +114,7 @@
         </div>
     </section>
 
-    <section class="pt-0">
+    <section class="pt-0 pb-0">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -128,12 +128,71 @@
                         <p class="h2 center-justified">Abu Dhabi also sees a winner crowned in F2, as the series also comes to a close here.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="col-12 text-center section pb-0">
-                    <p>[[ Placeholder for gallery ]]</p>
+    <section>
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+                <div class="col-2">
+                    <img src="{{ asset('/images/gallery/homepage-gallery-short-1.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
                 </div>
+                <div class="col-4">
+                    <img src="{{ asset('/images/gallery/homepage-gallery-long-1.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
+                </div>
+                <div class="col-2">
+                    <img src="{{ asset('/images/gallery/homepage-gallery-short-2.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="{{ asset('/images/gallery/homepage-gallery-long-2.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-4">
+                    <img src="{{ asset('/images/gallery/homepage-gallery-long-3.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
+                </div>
+                <div class="col-2">
+                    <img src="{{ asset('/images/gallery/homepage-gallery-short-3.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="{{ asset('/images/gallery/homepage-gallery-long-4.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
+                </div>
+                <div class="col-2">
+                    <img src="{{ asset('/images/gallery/homepage-gallery-short-4.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-4">
+                    <img src="{{ asset('/images/gallery/homepage-gallery-long-5.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="{{ asset('/images/gallery/homepage-gallery-long-6.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="{{ asset('/images/gallery/homepage-gallery-long-7.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-2">
+                    <img src="{{ asset('/images/gallery/homepage-gallery-short-5.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="{{ asset('/images/gallery/homepage-gallery-long-8.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
+                </div>
+                <div class="col-2">
+                    <img src="{{ asset('/images/gallery/homepage-gallery-short-6.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="{{ asset('/images/gallery/homepage-gallery-long-9.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
+                </div>
+            </div>
+        </div>
 
-                <div class="col-12 mt-4">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
                     <blockquote class="freight text-center mb-0"><i>Rev up your</i> BUSINESS <i>with</i> GP ROYALE: <br><i>COME and JOIN us for an</i> ELECTRIFYING F1 <br><i>experience at ABU DHABI GRAND PRIX.</i></blockquote>
                 </div>
             </div>

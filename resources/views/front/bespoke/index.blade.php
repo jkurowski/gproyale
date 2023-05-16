@@ -29,7 +29,7 @@
                     </div>
 
                     <div class="text-inside">
-                        <p class="center-justified">GP Royale, in collaboration with our close partnerships in the UAE – are able to offer a unique and bespoke concierge service in addition to our luxury Superyacht Abu Dhabi Grand Prix events: Exclusive Superyacht Event Weekend hire with full corporate branding on your own Superyacht, for large corporate groups. (100 - 300 guests) We can also offer Exclusive Branded Yacht hire to smaller groups (40-80 guests) and branded VIP areas on board Superyachts, for smaller groups (20+ guests)</p>
+                        <p class="center-justified">GP Royale, in collaboration with our close partnerships in the UAE – are able to offer a unique and bespoke concierge service in addition to our luxury Superyacht Abu Dhabi Grand Prix events: Exclusive Superyacht Event Weekend hire with full corporate branding on your own Superyacht, for large corporate groups. (100-300 guests) We can also offer Exclusive Branded Yacht hire to smaller groups (40-80 guests) and branded VIP areas on board Superyachts, for smaller groups (20+ guests)</p>
                     </div>
                 </div>
             </div>
