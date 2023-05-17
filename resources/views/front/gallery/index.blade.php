@@ -71,6 +71,33 @@
             </div>
 
             <div class="row no-gutters">
+                <div class="col-8">
+                    <div class="row no-gutters">
+                        <div class="col-8">
+                            <img src="{{ asset('/images/gallery/gallery-4.jpg') }}" loading="lazy" class="w-100 bespoke-img" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img src="{{ asset('/images/gallery/gallery-5.jpg') }}" loading="lazy" class="w-100 bespoke-img" alt="">
+                            <img src="{{ asset('/images/gallery/gallery-6.jpg') }}" loading="lazy" class="w-100 bespoke-img" alt="">
+                        </div>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="col-6 bespoke-img">
+                            <img src="{{ asset('/images/gallery/gallery-9.jpg') }}" loading="lazy" class="w-100 bespoke-img" alt="">
+                            <img src="{{ asset('/images/gallery/gallery-10.jpg') }}" loading="lazy" class="w-100 bespoke-img" alt="">
+                        </div>
+                        <div class="col-6 bespoke-img">
+                            <img src="{{ asset('/images/gallery/gallery-16.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="{{ asset('/images/gallery/gallery-7.jpg') }}" loading="lazy" class="w-100 bespoke-img" alt="">
+                    <img src="{{ asset('/images/gallery/gallery-8.jpg') }}" loading="lazy" class="w-100 bespoke-img" alt="">
+                </div>
+            </div>
+
+            <div class="row no-gutters">
                 <div class="col-4 bespoke-img">
                     <img src="{{ asset('/images/gallery/gallery-11.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
                 </div>
