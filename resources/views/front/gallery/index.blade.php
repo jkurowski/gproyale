@@ -56,11 +56,30 @@
         </div>
     </div>
 
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <p>[[ Placeholder for gallery ]]</p>
+    <section id="bespokeGalery" class="pb-0">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+                <div class="col-12 col-sm-4 bespoke-img">
+                    <img src="{{ asset('/images/gallery/gallery-1.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
+                </div>
+                <div class="col-6 col-sm-4 bespoke-img">
+                    <img src="{{ asset('/images/gallery/gallery-2.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
+                </div>
+                <div class="col-6 col-sm-4 bespoke-img">
+                    <img src="{{ asset('/images/gallery/gallery-3.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
+                </div>
+            </div>
+
+            <div class="row no-gutters">
+                <div class="col-4 bespoke-img">
+                    <img src="{{ asset('/images/gallery/gallery-11.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
+                </div>
+                <div class="col-4 bespoke-img">
+                    <img src="{{ asset('/images/gallery/gallery-12.jpg') }}" loading="lazy" class="w-100 bespoke-img" alt="">
+                    <img src="{{ asset('/images/gallery/gallery-13.jpg') }}" loading="lazy" class="w-100 bespoke-img" alt="">
+                </div>
+                <div class="col-4 bespoke-img">
+                    <img src="{{ asset('/images/gallery/gallery-14.jpg') }}" loading="lazy" class="w-100 h-100" alt="">
                 </div>
             </div>
         </div>
