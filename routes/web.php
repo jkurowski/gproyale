@@ -34,6 +34,7 @@ Route::middleware(['restrictIp'])->group(function () {
         Route::get('/team-building', 'Corporate\TeamController@index')->name('team');
         Route::get('/dubai-activities', 'Activities\IndexController@index')->name('activities');
         Route::get('/bespoke-event-concierge', 'Bespoke\IndexController@index')->name('bespoke');
+        Route::get('/abu-dhabi-grand-prix', 'Abudhabi\IndexController@index')->name('abudhabi');
 
     });
 
