@@ -1,4 +1,4 @@
-@extends('layouts.page', ['body_class' => 'subpage abudhabi-page'])
+@extends('layouts.page', ['body_class' => 'subpage abudhabi-page no-bottom'])
 
 @section('meta_title', $page->title)
 @section('seo_title', $page->meta_title)
@@ -360,7 +360,12 @@
         </div>
     </section>
 
-    <section>
+    <section class="pb-0 rwd-margin">
+        <img src="{{ asset('/images/grandprix/photo_2.jpg') }}" alt="" class="w-100 d-none d-sm-block">
+        <img src="{{ asset('/images/grandprix/photo_1_mobile.jpg') }}" alt="" class="w-100 d-block d-sm-none">
+    </section>
+    
+    <section class="pt-0 pt-sm-5">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -368,5 +373,10 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class="pt-3 pb-0 p-sm-0 rwd-margin">
+        <img src="{{ asset('/images/grandprix/photo_1.jpg') }}" alt="" class="w-100 d-none d-sm-block">
+        <img src="{{ asset('/images/grandprix/photo_2_mobile.jpg') }}" alt="" class="w-100 d-block d-sm-none">
     </section>
 @endsection

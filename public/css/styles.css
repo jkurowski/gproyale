@@ -1515,6 +1515,10 @@ footer a:hover {
   #page {
     padding: 25px;
   }
+  .rwd-margin {
+    margin-left: -25px;
+    margin-right: -25px;
+  }
   .team.team-grey {
     padding-top: 12px;
   }
