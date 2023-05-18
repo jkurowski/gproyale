@@ -10,7 +10,7 @@
                 <nav>
                     <ul class="mb-0 list-unstyled d-flex justify-content-center justify-content-lg-between">
                         <li><a href="/">HOME</a></li>
-                        <li><a href="#">ABU DHABI GRAND PRIX</a></li>
+                        <li><a href="{{ route('abudhabi') }}">ABU DHABI GRAND PRIX</a></li>
                         <li><a href="{{ route('events') }}">CORPORATE CONFERENCE & EVENTS</a></li>
                         <li><a href="{{ route('gallery') }}">GALLERY</a></li>
                         <li><a href="{{ route('contact') }}">CONTACT</a></li>

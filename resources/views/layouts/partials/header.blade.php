@@ -21,7 +21,7 @@
                                 </ul>
                             </li>
                             <li class="gotsubmenu">
-                                <a href="">ABU DHABI GRAND PRIX</a>
+                                <a href="{{ route('abudhabi') }}">ABU DHABI GRAND PRIX</a>
                                 <ul class="mb-0 list-unstyled submenu">
                                     <li><i class="las la-arrow-right"></i> <a href="{{ route('activities') }}">Dubai activities</a></li>
                                     <li><i class="las la-arrow-right"></i> <a href="{{ route('bespoke') }}">Bespoke event concierge</a></li>
