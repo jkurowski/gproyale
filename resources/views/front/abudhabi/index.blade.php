@@ -14,7 +14,7 @@
 @stop
 
 @section('content')
-    <div class="container mb-0 mb-sm-5 pb-5">
+    <div class="container pb-5">
         <div class="row">
             <div class="col-12">
                 <div class="section-title">
@@ -81,7 +81,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <blockquote class="freight text-center mb-0">COME <i>with us to</i> <b class="gold">ABU DHABI</b> <i>for the 2023</i> <br><i><b class="gold">SEASON FINALE</b> at the</i> YAS MARINA <i>CIRCUIT</i>.</blockquote>
+                    <blockquote class="freight text-center mb-0">COME <i>with us to</i> <br class="d-inline-flex d-sm-none"><b class="gold">ABU DHABI</b> <i>for the 2023</i> <br><i><b class="gold">SEASON FINALE</b> at the</i> YAS MARINA <i>CIRCUIT</i>.</blockquote>
                 </div>
             </div>
         </div>
@@ -97,12 +97,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-sm-6 mt-4 mt-sm-0">
                     <a class="swipebox" data-type="video" rel="vimeo-abu-dhabi" href="http://vimeo.com/804275495">
                         <img src="{{ asset('/images/video-abu-dhabi-grand-prix.jpg') }}" width="780" height="550" alt="VIDEO ABU DHABI GRAND PRIX">
                     </a>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-sm-6 mt-4 mt-sm-0">
                     <a class="swipebox" data-type="video" rel="vimeo-monaco-grand-prix" href="http://vimeo.com/804279459">
                         <img src="{{ asset('/images/video-monaco-grand-prix.jpg') }}" width="780" height="550" alt="VIDEO MONACO GRAND PRIX">
                     </a>
@@ -163,31 +163,31 @@
     <section id="bespokeGalery" class="p-0">
         <div class="container-fluid p-0">
             <div class="row no-gutters">
-                <div class="col-4 bespoke-img">
+                <div class="col-6 col-md-4 bespoke-img">
                     <img src="{{ asset('/images/grandprix/grandprix-gallery-thumb-5.jpg') }}" loading="lazy" class="w-100 " alt="">
                 </div>
-                <div class="col-4 bespoke-img">
+                <div class="col-6 col-md-4 bespoke-img">
                     <img src="{{ asset('/images/grandprix/grandprix-gallery-thumb-6.jpg') }}" loading="lazy" class="w-100 " alt="">
                 </div>
-                <div class="col-4 bespoke-img">
+                <div class="col-12 col-md-4 bespoke-img">
                     <img src="{{ asset('/images/grandprix/grandprix-gallery-thumb-7.jpg') }}" loading="lazy" class="w-100 " alt="">
                 </div>
-                <div class="col-4 bespoke-img">
+                <div class="col-6 col-md-4 bespoke-img">
                     <img src="{{ asset('/images/grandprix/grandprix-gallery-thumb-8.jpg') }}" loading="lazy" class="w-100 " alt="">
                 </div>
-                <div class="col-4 bespoke-img">
+                <div class="col-6 col-md-4 bespoke-img">
                     <img src="{{ asset('/images/grandprix/grandprix-gallery-thumb-9.jpg') }}" loading="lazy" class="w-100 " alt="">
                 </div>
-                <div class="col-4 bespoke-img">
+                <div class="col-12 col-md-4 bespoke-img">
                     <img src="{{ asset('/images/grandprix/grandprix-gallery-thumb-10.jpg') }}" loading="lazy" class="w-100 " alt="">
                 </div>
-                <div class="col-4 bespoke-img">
+                <div class="col-6 col-md-4 bespoke-img">
                     <img src="{{ asset('/images/grandprix/grandprix-gallery-thumb-11.jpg') }}" loading="lazy" class="w-100 " alt="">
                 </div>
-                <div class="col-4 bespoke-img">
+                <div class="col-6 col-md-4 bespoke-img">
                     <img src="{{ asset('/images/grandprix/grandprix-gallery-thumb-12.jpg') }}" loading="lazy" class="w-100 " alt="">
                 </div>
-                <div class="col-4 bespoke-img">
+                <div class="col-12 col-md-4 bespoke-img">
                     <img src="{{ asset('/images/grandprix/grandprix-gallery-thumb-13.jpg') }}" loading="lazy" class="w-100 " alt="">
                 </div>
             </div>
@@ -204,7 +204,7 @@
                 </div>
             </div>
         </div>
-        <div class="section pt-0 pb-5">
+        <div class="section pt-0 pb-3 pb-lg-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
@@ -221,7 +221,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container mt-5">
+            <div class="container mt-3 mt-sm-5">
                 <div class="row">
                     <div class="col-12">
                         <div class="red-included"></div>
@@ -233,7 +233,7 @@
         <div class="section pt-4">
             <div class="container">
                 <div class="row">
-                    <div class="col-6 d-flex justify-content-center">
+                    <div class="col-12 col-lg-6 d-flex justify-content-start justify-content-lg-center">
                         <ul>
                             <li>3-day Race Attendance and Yas Marina passes
                             <li>Magnificent track side views from a superyacht</li>
@@ -244,7 +244,7 @@
                             <li>Gourmet buffet catering and canapes throughout each day</li>
                         </ul>
                     </div>
-                    <div class="col-6 d-flex justify-content-center">
+                    <div class="col-12 col-lg-6 d-flex justify-content-start justify-content-lg-center">
                         <ul>
                             <li>Multi-screen TV’s on board, to capture all the action</li>
                             <li>On-board live entertainment and resident DJ</li>
@@ -259,7 +259,7 @@
             </div>
         </div>
 
-        <div class="section pt-5 pb-5">
+        <div class="section pt-3 pt-lg-5 pb-3 pb-lg-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
@@ -276,7 +276,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container mt-5">
+            <div class="container mt-3 mt-sm-5">
                 <div class="row">
                     <div class="col-12">
                         <div class="red-included"></div>
@@ -288,7 +288,7 @@
         <div class="section pt-4 pb-0">
             <div class="container">
                 <div class="row">
-                    <div class="col-6 d-flex justify-content-center">
+                    <div class="col-12 col-lg-6 d-flex justify-content-start justify-content-lg-center">
                         <ul>
                             <li>Race Attendance and Yas Marina pass for Sunday 26th November</li>
                             <li>Magnificent track side views from a superyacht</li>
@@ -300,7 +300,7 @@
                             <li>Multi-screen TV’s on board, to capture all the action</li>
                         </ul>
                     </div>
-                    <div class="col-6 d-flex justify-content-center">
+                    <div class="col-12 col-lg-6 d-flex justify-content-start justify-content-lg-center">
                         <ul>
                             <li>On-board live entertainment and resident DJ</li>
                             <li>Q&A sessions with a leading F1™ personality</li>

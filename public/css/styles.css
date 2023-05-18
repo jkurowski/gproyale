@@ -1165,9 +1165,16 @@ footer a:hover {
   .text-inside {
     padding: 0;
   }
+  .h1 {
+    font-size: 42px;
+    line-height: 48px;
+  }
   .h2 {
     font-size: 24px;
     line-height: 38px;
+  }
+  .h3 {
+    font-size: 33px;
   }
   .section-title h2,
   .section-title h1 {
@@ -1187,9 +1194,17 @@ footer a:hover {
 }
 /* end of 1399.98 */
 @media (max-width: 1199.98px) {
+  .h1 {
+    font-size: 37px;
+    line-height: 37px;
+  }
   .h2 {
     font-size: 22px;
     line-height: 30px;
+  }
+  .h3 {
+    font-size: 27px;
+    line-height: 34px;
   }
   .section-title h2,
   .section-title h1 {
@@ -1366,9 +1381,25 @@ footer a:hover {
 }
 /* end of 1199.98 */
 @media (max-width: 991.98px) {
+  .h1 {
+    font-size: 32px;
+    line-height: 36px;
+    margin: 0;
+  }
   .h2 {
     font-size: 20px;
     line-height: 31px;
+  }
+  .h3 {
+    font-size: 26px;
+    line-height: 28px;
+  }
+  .h3 br {
+    display: none;
+  }
+  .subpage #page .bg-red li {
+    font-size: 17px;
+    line-height: 32px;
   }
   .separator {
     padding: 50px 0;
@@ -1388,9 +1419,18 @@ footer a:hover {
     padding: 10px 15px 0;
     line-height: normal;
   }
+  .subpage #page .bg-red li {
+    font-size: 19px;
+    line-height: 33px;
+  }
 }
 /* end of 991.98 */
 @media (max-width: 767.98px) {
+  .h1 {
+    font-size: 23px;
+    line-height: 30px;
+    margin: 0;
+  }
   .section-title h2,
   .section-title h1,
   .h2,
@@ -1462,6 +1502,9 @@ footer a:hover {
   .bespoke-page #pageheader {
     background: url("../images/headers/bespoke-md.jpg") no-repeat;
   }
+  .abudhabi-page #pageheader {
+    background: url("../images/headers/abudhabi-md.jpg") no-repeat;
+  }
   #slider {
     background-size: cover !important;
     background-position: center !important;
@@ -1487,12 +1530,24 @@ footer a:hover {
     font-size: 16px;
     line-height: 28px;
   }
+  .h3 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .subpage #page .bg-red li {
+    font-size: 16px;
+    line-height: 28px;
+  }
   .section,
   section {
     padding: 20px 0;
   }
   .section-title h1,
   .section-title h2 {
+    background-size: 60px auto;
+    padding: 20px 0;
+  }
+  .bg-red .section-title h2 {
     background-size: 60px auto;
     padding: 20px 0;
   }
@@ -1524,6 +1579,13 @@ footer a:hover {
   }
 }
 /* end of 575.98 */
+@media (max-width: 389.98px) {
+  .subpage #page .bg-red li {
+    font-size: 15px;
+    line-height: 21px;
+    margin-bottom: 10px;
+  }
+}
 /* end of 359.98 */
 /* Add-ons
 ================================================== */
