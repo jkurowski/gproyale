@@ -829,7 +829,7 @@ section,
 .bg-red {
   background: #6e0019 url("../images/grandprix/red-bg.jpg") repeat-y;
   background-size: 100% auto;
-  color: white;
+  color: #eaeaea;
 }
 .bg-red .section-title h2 {
   background: url("../images/section-title-white.svg") no-repeat center center;
@@ -1532,6 +1532,21 @@ footer a:hover {
     margin-left: -25px;
     margin-right: -25px;
   }
+  .bg-red {
+    margin-left: -25px;
+    margin-right: -25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 25px;
+  }
+  .h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .h3.lighter {
+    letter-spacing: 4px;
+    font-size: 20px;
+  }
   .team.team-grey {
     padding-top: 12px;
   }
@@ -1546,10 +1561,6 @@ footer a:hover {
   .team p {
     font-size: 16px;
     line-height: 28px;
-  }
-  .h3 {
-    font-size: 22px;
-    line-height: 26px;
   }
   .subpage #page .bg-red li {
     font-size: 16px;
