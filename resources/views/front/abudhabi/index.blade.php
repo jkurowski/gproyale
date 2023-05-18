@@ -30,7 +30,7 @@
                 <div class="col-12">
                     <div class="text-inside">
                         <p class="h1 center-justified"><b>Abu Dhabi Yas Marina F1 Season Finale</b></p>
-                        <p class="h1 center-justified">Saturday 24th - Sunday 26th November 2023</p>
+                        <p class="h1 center-justified">Friday 24th - Sunday 26th November 2023</p>
                     </div>
                 </div>
             </div>

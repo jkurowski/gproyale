@@ -1284,6 +1284,10 @@ footer a:hover {
   footer img {
     width: 70px;
   }
+  .openmenu {
+    overflow: hidden;
+    height: 100%;
+  }
   .openmenu header {
     background: #71011a;
     position: fixed;
@@ -1292,6 +1296,7 @@ footer a:hover {
     left: 0;
     right: 0;
     padding: 15px;
+    overflow-x: scroll;
   }
   .openmenu header nav li.active,
   .openmenu header nav li:hover {
@@ -1372,11 +1377,19 @@ footer a:hover {
     padding: 25px;
   }
   .openmenu header.fixed #logo img {
-    width: 120px;
+    width: 100px;
     height: auto;
   }
   .openmenu header.fixed nav ul.mainmenu {
-    margin-top: 30px;
+    margin-top: 10px;
+  }
+  .openmenu header,
+  .openmenu header.fixed {
+    padding: 20px;
+  }
+  .openmenu header .col-9,
+  .openmenu header.fixed .col-9 {
+    display: block;
   }
 }
 /* end of 1199.98 */
