@@ -240,7 +240,7 @@
                             <li>VIP Experience</li>
                             <li>Souvenirlanyards & race programmes</li>
                             <li>Champagne reception</li>
-                            <li>Open Bar including: Champagne, fine wines, spirits and soft drinks</li>
+                            <li>Open Bar including: bubbles, fine wines, spirits and soft drinks</li>
                             <li>Gourmet buffet catering and canapes throughout each day</li>
                         </ul>
                     </div>

@@ -24,10 +24,10 @@
 
             </div>
 
-            <div class="col-12">
+            <div class="col-12 text-justify">
                 <p>GP Royale, in collaboration with our close partnerships in the UAE – are able to offer a unique and bespoke B2B concierge service in addition to our Luxury Superyacht Abu Dhabi Grand Prix events:</p>
             </div>
-            <div class="col-12 mt-5">
+            <div class="col-12 mt-5 text-justify">
                 <p>Fast Track Dubai Residency programmes.</p>
                 <p>&nbsp;</p>
                 <p>Plus, company formation report containing jurisdictional options (Mainland or Free Zone) and company formation strategy consultation in light of new regulatory and compliance obligations in the UAE.</p>
@@ -45,7 +45,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 text-justify">
                 <p>Office Premises or Shared Office Space, plus personal accommodation services, whether renting, leasing or purchasing.</p>
                 <p>&nbsp;</p>
                 <p>Local UAE Distribution planning and resources.</p>
