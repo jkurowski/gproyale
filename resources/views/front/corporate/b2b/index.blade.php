@@ -40,7 +40,11 @@
     </div>
 
     <section>
-        <img src="{{ asset('/images/b2b-concierge.jpg') }}" alt="B2B CONCIERGE" width="1920" height="900" class="w-100">
+        <picture>
+            <source srcset="{{ asset("/images/b2b-concierge.webp") }}" type="image/webp">
+            <source srcset="{{ asset("/images/b2b-concierge.jpg") }}" type="image/jpeg">
+            <img src="{{ asset("/images/b2b-concierge.jpg") }}" alt="B2B CONCIERGE" loading="lazy" width="1920" height="900" class="w-100">
+        </picture>
     </section>
 
     <div class="container">
@@ -57,14 +61,12 @@
         </div>
     </div>
 
-    <section class="pb-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <img src="{{ asset('/images/b2b-concierge-2.jpg') }}" alt="B2B CONCIERGE" width="1580" height="1580" class="w-100">
-                </div>
-            </div>
-        </div>
+    <section>
+        <picture>
+            <source srcset="{{ asset("/images/b2b-concierge-2.webp") }}" type="image/webp">
+            <source srcset="{{ asset("/images/b2b-concierge-2.jpg") }}" type="image/jpeg">
+            <img src="{{ asset("/images/b2b-concierge-2.jpg") }}" alt="B2B CONCIERGE" loading="lazy" width="1920" height="900" class="w-100">
+        </picture>
     </section>
 
     <div class="container">
