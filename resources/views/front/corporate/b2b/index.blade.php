@@ -1,4 +1,4 @@
-@extends('layouts.page', ['body_class' => 'subpage b2b-page'])
+@extends('layouts.page', ['body_class' => 'subpage b2b-page no-bottom'])
 
 @section('meta_title', $page->title)
 @section('seo_title', $page->meta_title)
@@ -8,38 +8,21 @@
 @section('pageheader')
     @include('layouts.partials.pageheader', [
     'title' => ($page->content_header) ?: $page->title,
-    'header_file' => '15th.png',
+    'header_file' => 'bbc.png',
     'items' => $page
     ])
 @stop
 
 @section('content')
-    <div class="container">
+    <div class="container pt-0 pt-sm-3 pt-xxl-5">
         <div class="row">
-            <div class="col-12">
-
-                <div class="section-title">
-                    <h1>B2B CONCIERGE</h1>
-                </div>
-
-            </div>
-
-            <div class="col-12 text-justify">
-                <p>GP Royale, in collaboration with our close partnerships in the UAE – are able to offer a unique and bespoke B2B concierge service in addition to our Luxury Superyacht Abu Dhabi Grand Prix events:</p>
-            </div>
-            <div class="col-12 mt-5 text-justify">
-                <p>Fast Track Dubai Residency programmes.</p>
-                <p>&nbsp;</p>
-                <p>Plus, company formation report containing jurisdictional options (Mainland or Free Zone) and company formation strategy consultation in light of new regulatory and compliance obligations in the UAE.</p>
-                <p>&nbsp;</p>
-                <p>Offshore and Domestic Company formation - including custom document creation with Nominee Director and/or Shareholder Service - including document creation.</p>
-                <p>&nbsp;</p>
-                <p>Dubai Banking Set Up and Legal Advice.</p>
+            <div class="col-12 p-0">
+                <img src="{{ asset("/images/b2b-concierge-tagline.jpg") }}" alt="B2B CONCIERGE" width="904" height="509" class="m-auto">
             </div>
         </div>
     </div>
 
-    <section>
+    <section class="rwd-margin">
         <picture>
             <source srcset="{{ asset("/images/b2b-concierge.webp") }}" type="image/webp">
             <source srcset="{{ asset("/images/b2b-concierge.jpg") }}" type="image/jpeg">
@@ -49,19 +32,27 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12 text-justify">
-                <p>Office Premises or Shared Office Space, plus personal accommodation services, whether renting, leasing or purchasing.</p>
-                <p>&nbsp;</p>
-                <p>Local UAE Distribution planning and resources.</p>
-                <p>&nbsp;</p>
-                <p>Business introductions with influential local Sponsors in differing business sectors (Introduction to licensed sales facilitators).</p>
-                <p>&nbsp;</p>
-                <p>If you are looking to set up a business within the UAE, or move your distribution into the area, we can help you to plan and facilitate and advise you on the new regulatory and compliance obligations in the UAE.</p>
+            <div class="col-12 text-center">
+                <h2 class="gold-sep">B2B CONCIERGE</h2>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-lg-9">
+                <ul class="mb-0 list-unstyled crown-list">
+                    <li>Company formation option (Mainland or Free Zone)</li>
+                    <li>Formation strategy consultation for new UAE regulatory & compliance</li>
+                    <li>Business introductions with influential UAE sponsors</li>
+                    <li>Nominee Director and Shareholder Services</li>
+                    <li>UAE Distribution planning and resources</li>
+                    <li>Office Premises or Shared Office space</li>
+                    <li>Banking Set Up</li>
+                    <li>Legal Advice</li>
+                </ul>
             </div>
         </div>
     </div>
 
-    <section>
+    <section class="rwd-margin">
         <picture>
             <source srcset="{{ asset("/images/b2b-concierge-2.webp") }}" type="image/webp">
             <source srcset="{{ asset("/images/b2b-concierge-2.jpg") }}" type="image/jpeg">
@@ -71,10 +62,28 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                <blockquote class="freight text-center mb-0">CONNECT, COLLABORATE <i>and</i> GROW <i>with</i> <br>GP ROYALE’S EXCLUSIVE BUSINESS <i>platform in</i> DUBAI</blockquote>
+            <div class="col-12 text-center">
+                <h2 class="gold-sep">B2C CONCIERGE</h2>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-sm-9 col-md-8 col-lg-6">
+                <ul class="mb-0 list-unstyled crown-list">
+                    <li>Fast-track UAE residency</li>
+                    <li>Personal Accommodation Services</li>
+                    <li>Banking Set Up</li>
+                    <li>Legal Advice</li>
+                </ul>
             </div>
         </div>
     </div>
+
+    <section class="pb-0 rwd-margin">
+        <picture>
+            <source srcset="{{ asset("/images/b2b-concierge-3.webp") }}" type="image/webp">
+            <source srcset="{{ asset("/images/b2b-concierge-3.jpg") }}" type="image/jpeg">
+            <img src="{{ asset("/images/b2b-concierge-3.jpg") }}" alt="B2B CONCIERGE" loading="lazy" width="1920" height="900" class="w-100">
+        </picture>
+    </section>
 
 @endsection
