@@ -14,6 +14,18 @@
 @stop
 
 @section('content')
+
+    <section class="pt-0 pt-sm-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <blockquote class="freight text-center mb-0"><i>Be a part of our</i> <br>LUXURY YACHT PARTY <br> <i>CELEBRATING the</i> F1 SEASON FINALE <br><i>in</i> ABU DHABI</blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <div class="container pb-5">
         <div class="row">
             <div class="col-12">
@@ -30,7 +42,7 @@
                 <div class="col-12">
                     <div class="text-inside">
                         <p class="h1 center-justified"><b>Abu Dhabi Yas Marina F1 Season Finale</b></p>
-                        <p class="h1 center-justified">Friday 24th - Sunday 26th November 2023</p>
+                        <p class="h1 center-justified h1-slim">Saturday 25<sup>th</sup> - Sunday 26<sup>th</sup> November 2023</p>
                     </div>
                 </div>
             </div>
@@ -70,7 +82,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="text-inside center-justified">
-                        <p>Whether you are a passionate F1 fan, who wants to see all the weekends racing, or if you want to combine other events, such as dune-bashing or an unforgettable visit to the Burj Khalifa tower, our expert concierge can arrange any activity that you may desire.</p>
+                        <p>Whether you are a passionate F1 fan, who wants to see all the weekends racing, or if you want to combine other events, such as dune - bashing or an unforgettable visit to the Burj Khalifa tower, our expert concierge can arrange any activity that you may desire.</p>
                     </div>
                 </div>
             </div>
@@ -81,13 +93,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <blockquote class="freight text-center mb-0">COME <i>with us to</i> <br class="d-inline-flex d-sm-none"><b class="gold">ABU DHABI</b> <i>for the 2023</i> <br><i><b class="gold">SEASON FINALE</b> at the</i> YAS MARINA <i>CIRCUIT</i>.</blockquote>
+                    <blockquote class="freight text-center mb-0 blockquote-nofooter mt-4">COME <i>with us to</i> <br class="d-inline-flex d-sm-none"><b class="gold">ABU DHABI</b> <i>for the 2023</i> <br><i><b class="gold">SEASON FINALE</b> at the</i> YAS MARINA <i>CIRCUIT</i>.</blockquote>
                 </div>
             </div>
         </div>
     </section>
 
-    <section>
+    <section class="pt-5">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -120,7 +132,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="text-inside center-justified">
-                        <p>The 2023 Formula 1 World C hampionship will again conclude with the Abu Dhabi Grand Prix at the spectacular Yas Marina circuit. Since the track’s debut in 2009, it has hosted four title-deciding races and with Ferrari and Mercedes keen to close the gap on reigning champions Red Bull, hopes are high for another great final round showdown. Abu Dhabi also sees a winner crowned in F2, as the support series comes to a close here.</p>
+                        <p>The 2023 Formula 1 World Championship will again conclude with the Abu Dhabi Grand Prix at the spectacular Yas Marina circuit. Since the track’s debut in 2009, it has hosted four title - deciding races and with Ferrari and Mercedes keen to close the gap on reigning champions Red Bull, hopes are high for another great final round showdown. Abu Dhabi also sees a winner crowned in F2, as the support series comes to a close here.</p>
                     </div>
                 </div>
             </div>
@@ -151,9 +163,9 @@
             <div class="row">
                 <div class="col-12">
                     <div class="text-inside center-justified">
-                        <p>This lavish super yacht is perfectly situated within Yas Marina. The harbour is right in the centre of the track and offers superb track-side views in the heart of the action.</p>
+                        <p>This lavish super yacht is perfectly situated within Yas Marina. The harbour is right in the centre of the track and offers superb track - side views in the heart of the action.</p>
                         <p>&nbsp;</p>
-                        <p>Our guests will enjoy a luxurious weekend with impeccable service and personal touches that will certainly leave a lasting impression. The fantastic party atmosphere on board the yacht is second to none and only gets better as the sun sets and the race draws to a close, with the best fireworks display of any of the year’s F1 races!</p>
+                        <p>Our guests will enjoy a luxurious weekend with impeccable service and personal touches that will certainly leave a lasting impression. The fantastic party atmosphere on board the yacht is second to none and only gets better as the sun sets and the race draws to a close , with the best fireworks display of any of the year’s F1 races!</p>
                     </div>
                 </div>
             </div>
@@ -235,24 +247,24 @@
                 <div class="row">
                     <div class="col-12 col-lg-6 d-flex justify-content-start justify-content-lg-center">
                         <ul>
-                            <li>3-day Race Attendance and Yas Marina passes
-                            <li>Magnificent track side views from a superyacht</li>
-                            <li>VIP Experience</li>
-                            <li>Souvenirlanyards & race programmes</li>
+                            <li>3 Day Race Attendance</li>
+                            <li>Magnificent trackside views</li>
+                            <li>VIP experience</li>
                             <li>Champagne reception</li>
-                            <li>Open Bar including: bubbles, fine wines, spirits and soft drinks</li>
-                            <li>Gourmet buffet catering and canapes throughout each day</li>
+                            <li>All day open bar, including bubbles, <br>fine wines, spirits and soft drinks</li>
+                            <li>Souvenir lanyards & programmes</li>
+                            <li>Gourmet buffet catering,</li>
                         </ul>
                     </div>
                     <div class="col-12 col-lg-6 d-flex justify-content-start justify-content-lg-center">
                         <ul>
-                            <li>Multi-screen TV’s on board, to capture all the action</li>
-                            <li>On-board live entertainment and resident DJ</li>
-                            <li>Q&A sessions with leading F1™ personalities</li>
-                            <li>GP Royale staff on-board all day</li>
-                            <li>Hospitality staff on-board all day</li>
-                            <li>On-board Photographer</li>
+                            <li>On-board live entertainment</li>
+                            <li>Q&A session with a leading F1 personality</li>
+                            <li>GP Royale personnel on-board all day</li>
                             <li>Access to Evening Concerts each day</li>
+                            <li>Multi-screen TV’s on-board</li>
+                            <li>Hospitality staff on-board all day</li>
+                            <li>On-board photographer</li>
                         </ul>
                     </div>
                 </div>
@@ -290,24 +302,24 @@
                 <div class="row">
                     <div class="col-12 col-lg-6 d-flex justify-content-start justify-content-lg-center">
                         <ul>
-                            <li>Race Attendance and Yas Marina pass for Sunday 26th November</li>
-                            <li>Magnificent track side views from a superyacht</li>
-                            <li>VIP Experience</li>
-                            <li>Souvenir lanyards & race programmes</li>
+                            <li>Final Race Day Attendance</li>
+                            <li>Magnificent trackside views</li>
+                            <li>VIP experience</li>
                             <li>Champagne reception</li>
-                            <li>Open Bar including: bubbles, fine wines, spirits and soft drinks</li>
-                            <li>Gourmet buffet catering and canapes throughout the day</li>
-                            <li>Multi-screen TV’s on board, to capture all the action</li>
+                            <li>All day open bar, including bubbles, <br>fine wines, spirits and soft drinks</li>
+                            <li>Souvenir lanyards & programme</li>
+                            <li>Gourmet buffet catering,</li>
                         </ul>
                     </div>
                     <div class="col-12 col-lg-6 d-flex justify-content-start justify-content-lg-center">
                         <ul>
-                            <li>On-board live entertainment and resident DJ</li>
-                            <li>Q&A sessions with a leading F1™ personality</li>
-                            <li>GP Royale staff on-board all day</li>
+                            <li>On-board live entertainment</li>
+                            <li>Q&A session with a leading F1 personality</li>
+                            <li>GP Royale personnel on-board all day</li>
+                            <li>Access to Evening Concerts</li>
+                            <li>Multi-screen TV’s on-board</li>
                             <li>Hospitality staff on-board all day</li>
-                            <li>On-board Photographer</li>
-                            <li>Access to final Evening Concert</li>
+                            <li>On-board photographer</li>
                         </ul>
                     </div>
                 </div>
@@ -320,7 +332,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="text-inside center-justified">
-                        <p>After the days racing, you also have passes to attend the evening concerts, with world class headlining artists each night. We can also arrange for VIP access to the “Golden Circle” concert enclosure right in front of the stage.</p>
+                        <p>After the day’s racing, you also have passes to attend the evening concerts, with world class headlining artists each night. We can also arrange for VIP access to the “Golden Circle” concert enclosure right in front of the stage.</p>
                     </div>
                 </div>
                 <div class="col-12">
@@ -353,7 +365,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="text-inside center-justified">
-                        <p>The Yas Marina Circuit is situated on the man-made Yas Island which boasts incredible amenities including luxurious hotels and restaurants, Warner Bros. World , Abu Dhabi, Yas Waterworld and Ferrari World, home of the Formula Rossa ride–the world’s fastest rollercoaster. The island also sits just 30 minutes from the United Arab Emirates capital Abu Dhabi and one-hour from Dubai</p>
+                        <p>The Yas Marina Circuit is situated on the man - made Yas Island which boasts incredible amenities including luxurious hotels and restaurants, Warner Brothers World, Yas Waterworld and Ferrari World, home of the Formula Rossa ride: the world’s fastest rollercoaster. The island is just 30 minutes from the United Arab Emirates’ capital Abu Dhabi and one - hour from Dubai.</p>
                     </div>
                 </div>
             </div>
@@ -369,7 +381,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <blockquote class="freight text-center mb-0"><i>Be a part of our</i> <br>LUXURY YACHT PARTY <br> <i>CELEBRATING the</i> F1 SEASON FINALE <br><i>in</i> ABU DHABI</blockquote>
+                    <blockquote class="freight text-center mb-0">GP ROYALE <br>LUXURY <i>experience</i> <br> <i>personalised</i> SERVICE</blockquote>
                 </div>
             </div>
         </div>
