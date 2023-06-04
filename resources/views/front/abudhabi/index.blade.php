@@ -220,7 +220,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <p class="h3"><b>PLATINUM 3 DAY LUXURY SUPERYACHT RACE EVENT <br>FRIDAY to SUNDAY 24th-26th NOVEMBER 2023</b></p>
+                        <p class="h3 h3-m"><b>PLATINUM 3 DAY LUXURY SUPERYACHT RACE EVENT <br>FRIDAY to SUNDAY 24th-26th NOVEMBER 2023</b></p>
                     </div>
                 </div>
             </div>
@@ -229,7 +229,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <p class="h3 lighter">WHAT’S INCLUDED</p>
+                        <p class="h3 h3-m lighter">WHAT’S INCLUDED</p>
                     </div>
                 </div>
             </div>

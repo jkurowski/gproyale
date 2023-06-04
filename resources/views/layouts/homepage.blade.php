@@ -18,6 +18,7 @@
     <!-- Styles -->
     <link href="{{ asset('/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/styles.css') }}" rel="stylesheet">
+    <link href="{{ asset('/images/mobile-bg.jpg') }}" rel="preload" as="image">
 
     @stack('style')
 </head>

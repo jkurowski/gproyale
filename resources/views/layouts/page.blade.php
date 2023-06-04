@@ -21,6 +21,7 @@
     <!-- Styles -->
     <link href="{{ asset('/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/styles.min.css?v=2') }}" rel="stylesheet">
+    <link href="{{ asset('/images/mobile-bg.jpg') }}" rel="preload" as="image">
 
     @stack('style')
 

@@ -339,13 +339,16 @@ h6 a,
   font-size: 37px;
   line-height: 46px;
 }
+.h3.h3-m {
+  font-family: 'Montserrat', sans-serif;
+}
 .center-justified {
   text-align: justify;
   text-align-last: center;
 }
 .lighter {
   font-weight: 300 !important;
-  letter-spacing: 10px;
+  letter-spacing: 20px;
 }
 .gold-sep {
   font-size: 38px;
@@ -860,9 +863,13 @@ section,
   border-left: 1px solid #dd1010;
   border-right: 1px solid #dd1010;
 }
+.subpage #page .bg-red .lighter {
+  color: #d2d2d2;
+}
 .subpage #page .bg-red li {
   font-size: 20px;
   line-height: 38px;
+  color: #d2d2d2;
 }
 .gold {
   color: #b39a6f;
@@ -1071,7 +1078,7 @@ footer a:hover {
   color: white;
 }
 .top-menu-close a i {
-  font-size: 32px;
+  font-size: 36px;
 }
 .submenu i {
   display: none;
@@ -1334,7 +1341,8 @@ footer a:hover {
     height: 100%;
   }
   .openmenu header {
-    background: #71011a;
+    background: #71011a url("../images/mobile-bg.jpg") no-repeat bottom center;
+    background-size: cover;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -1351,8 +1359,7 @@ footer a:hover {
     display: block;
     width: 100%;
     text-align: left;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 15px 0;
+    padding: 20px 0 0;
     margin: 0;
     line-height: normal;
   }
@@ -1519,6 +1526,9 @@ footer a:hover {
     padding-left: 61px;
     background: url(../images/crown-list.svg) no-repeat left top 5px;
   }
+  .lighter {
+    letter-spacing: 15px;
+  }
   blockquote {
     font-size: 30px;
     line-height: 40px;
@@ -1604,7 +1614,7 @@ footer a:hover {
     line-height: 26px;
   }
   .h3.lighter {
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     font-size: 20px;
   }
   .subpage #page .crown-list li {

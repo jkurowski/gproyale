@@ -38,7 +38,7 @@
             </div>
         </div>
         <div class="top-menu-close">
-            <a href="#" id="triggermenu"><i class="lar la-window-close"></i></a>
+            <a href="#" id="triggermenu"><i class="las la-times"></i></a>
         </div>
     </header>
 </div>
