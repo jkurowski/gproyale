@@ -42,7 +42,7 @@
                 <div class="col-12">
                     <div class="text-inside">
                         <p class="h1 center-justified"><b>Abu Dhabi Yas Marina F1 Season Finale</b></p>
-                        <p class="h1 center-justified h1-slim">Saturday 25<sup>th</sup> - Sunday 26<sup>th</sup> November 2023</p>
+                        <p class="h1 center-justified h1-slim">Friday 24<sup>th</sup> - Sunday 26<sup>th</sup> November 2023</p>
                     </div>
                 </div>
             </div>
@@ -220,7 +220,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <p class="h3 h3-m"><b>PLATINUM 3 DAY LUXURY SUPERYACHT RACE EVENT <br>FRIDAY to SUNDAY 24th-26th NOVEMBER 2023</b></p>
+                        <p class="h3 h3-m"><b>PLATINUM 3 DAY LUXURY SUPERYACHT RACE EVENT <br>FRIDAY to SUNDAY 24<sup>th</sup>-26<sup>th</sup> NOVEMBER 2023</b></p>
                     </div>
                 </div>
             </div>
@@ -275,7 +275,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <p class="h3"><b>FINAL RACE DAY LUXURY SUPERYACHT EVENT <br>SUNDAY 26th NOVEMBER 2023</b></p>
+                        <p class="h3"><b>FINAL RACE DAY LUXURY SUPERYACHT EVENT <br>SUNDAY 26<sup>th</sup> NOVEMBER 2023</b></p>
                     </div>
                 </div>
             </div>
