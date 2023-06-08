@@ -1049,6 +1049,9 @@ footer p:hover,
 footer a:hover {
   color: white;
 }
+footer p {
+  line-height: 25px;
+}
 /* Responsive
 ================================================== */
 .closemenu {

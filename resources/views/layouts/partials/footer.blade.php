@@ -20,7 +20,7 @@
                 </nav>
             </div>
             <div class="col-12 mt-3 mt-xl-5 text-center">
-                <p>VAT 436 6066 87</p>
+                <p>GP Royale Limited, 43 Berkeley Square, Mayfair, London W1J 5AP</p>
                 <p>© GP ROYALE LIMITED</p>
             </div>
         </div>

@@ -17,7 +17,7 @@
                                 <a href="{{ route('events') }}">CORPORATE CONFERENCE & EVENTS</a>
                                 <ul class="mb-0 list-unstyled submenu">
                                     <li><i class="las la-arrow-right"></i> <a href="{{ route('team') }}">Dubai corporate team-building activities</a></li>
-                                    <li><i class="las la-arrow-right"></i> <a href="{{ route('b2b') }}">B2B concierge</a></li>
+                                    <li><i class="las la-arrow-right"></i> <a href="{{ route('b2b') }}">B2B & B2C Concierge</a></li>
                                 </ul>
                             </li>
                             <li class="gotsubmenu">
