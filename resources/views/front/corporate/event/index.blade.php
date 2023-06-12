@@ -6,7 +6,7 @@
 @section('seo_robots', $page->meta_robots)
 
 @section('pageheader')
-    @include('layouts.partials.pageheader', [
+    @include('layouts.partials.video-pageheader', [
     'title' => ($page->content_header) ?: $page->title,
     'header_file' => '',
     'items' => $page
