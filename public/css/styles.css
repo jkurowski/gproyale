@@ -350,6 +350,9 @@ h6 a,
   font-weight: 300 !important;
   letter-spacing: 20px;
 }
+.bg-grey {
+  background: #f4f4f4;
+}
 .gold-sep {
   font-size: 38px;
   font-weight: 400;
@@ -723,6 +726,10 @@ section,
 }
 .separator img {
   width: 540px;
+  margin: 0 auto;
+}
+.separator.separator-grey img {
+  width: 970px;
   margin: 0 auto;
 }
 /* Page
@@ -1604,6 +1611,9 @@ footer p {
   .rwd-margin {
     margin-left: -25px;
     margin-right: -25px;
+  }
+  .conference-page .bg-grey.rwd-margin {
+    padding: 0 25px;
   }
   .bg-red {
     margin-left: -25px;
