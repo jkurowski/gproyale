@@ -1136,7 +1136,7 @@ footer p {
   }
   #pageheader img {
     margin-bottom: 100px;
-    width: 440px;
+    width: 580px;
   }
   #slider img {
     margin-top: 100px;
@@ -1184,9 +1184,6 @@ footer p {
 @media (max-width: 1659.98px) {
   #pageheader {
     height: 740px;
-  }
-  #pageheader img {
-    width: 480px;
   }
   header.fixed #logo img {
     height: 70px;
@@ -1269,7 +1266,6 @@ footer p {
     height: 640px;
   }
   #pageheader img {
-    width: 410px;
     margin-bottom: 60px;
   }
 }

@@ -6,9 +6,9 @@
 @section('seo_robots', $page->meta_robots)
 
 @section('pageheader')
-    @include('layouts.partials.video-pageheader', [
+    @include('layouts.partials.pageheader', [
     'title' => ($page->content_header) ?: $page->title,
-    'header_file' => '',
+    'header_file' => 'colaborate.png',
     'items' => $page
     ])
 @stop
