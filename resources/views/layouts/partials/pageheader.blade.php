@@ -8,7 +8,7 @@
             </div>
         </div>
     </div>
-    @if($slider)
+    @isset($slider)
         <ul class="mb-0 list-unstyled">
             @foreach($slider as $image)
                 <li style="background-image: url('{{ $image }}')"></li>
