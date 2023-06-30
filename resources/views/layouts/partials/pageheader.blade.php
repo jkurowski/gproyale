@@ -17,7 +17,7 @@
     @endif
 </div>
 @push('scripts')
-    @if($slider)
+    @isset($slider)
         <script>
             $("#pageheader ul").slick({
                 infinite: true,
