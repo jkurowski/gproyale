@@ -7,9 +7,15 @@
 
 @section('pageheader')
     @include('layouts.partials.pageheader', [
-    'title' => ($page->content_header) ?: $page->title,
-    'header_file' => 'colaborate.png',
-    'items' => $page
+        'title' => ($page->content_header) ?: $page->title,
+        'header_file' => 'colaborate.png',
+        'items' => $page,
+        'slider' =>
+        [
+            asset('images/headers/conference.jpg'),
+            asset('images/headers/conference-2.jpg'),
+            asset('images/headers/conference-3.jpg'),
+        ]
     ])
 @stop
 
